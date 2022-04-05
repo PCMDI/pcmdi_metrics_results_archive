@@ -1,0 +1,463 @@
+{
+    "REF": {
+        "obs": {
+            "defaultReference": {
+                "NAM": {
+                    "DJF": {
+                        "frac": 0.27189980369699507,
+                        "mean": -1.4764056022277766e-16,
+                        "mean_glo": 0.11829962806709002,
+                        "stdv_pc": 1.5307985578653838
+                    },
+                    "JJA": {
+                        "frac": 0.17573684682839966,
+                        "mean": -6.525185474131692e-17,
+                        "mean_glo": 0.07893513384786907,
+                        "stdv_pc": 0.5855094166189558
+                    },
+                    "MAM": {
+                        "frac": 0.2251871640537647,
+                        "mean": -8.43660344130158e-17,
+                        "mean_glo": 0.10342282763014632,
+                        "stdv_pc": 0.9736520958870398
+                    },
+                    "SON": {
+                        "frac": 0.16145412949052443,
+                        "mean": -2.109150860325395e-17,
+                        "mean_glo": -0.004980303548678808,
+                        "stdv_pc": 0.736724595540798
+                    },
+                    "monthly": {
+                        "frac": 0.1906201342365011,
+                        "mean": 3.1637262904880925e-17,
+                        "mean_glo": 0.14458052263925078,
+                        "stdv_pc": 1.450443581980852
+                    }
+                },
+                "period": "1900-2005",
+                "reference_eofs": 1,
+                "source": "/p/user_pub/PCMDIobs/PCMDIobs2.0-beta/atmos/mon/psl/20CR/gn/v20200206/psl_mon_20CR_BE_gn_187101-201212.nc"
+            }
+        }
+    },
+    "RESULTS": {
+        "UKESM1-0-LL": {
+            "r17i1p1f2": {
+                "defaultReference": {
+                    "NAM": {
+                        "DJF": {
+                            "best_matching_model_eofs__cor": 1,
+                            "best_matching_model_eofs__rms": 1,
+                            "best_matching_model_eofs__tcor_cbf_vs_eof_pc": 1,
+                            "cbf": {
+                                "bias": -0.0005254491682313135,
+                                "bias_glo": -0.1625820838705085,
+                                "cor": 0.9281399647289025,
+                                "cor_glo": 0.8901687173906335,
+                                "frac": 0.3388605527211304,
+                                "frac_cbf_regrid": 0.34064195483600335,
+                                "mean": -4.21830172065079e-17,
+                                "mean_glo": -0.04428244982951129,
+                                "rms": 0.6641624154845661,
+                                "rms_glo": 0.4966191629901094,
+                                "rmsc": 0.3791042996173843,
+                                "rmsc_glo": 0.46868172966921406,
+                                "stdv_pc": 1.6353906780136258,
+                                "stdv_pc_ratio_to_obs": 1.0683252016477531
+                            },
+                            "eof1": {
+                                "bias": -0.0005803013961131101,
+                                "bias_glo": -0.19704384604167177,
+                                "cor": 0.8748532538662656,
+                                "cor_glo": 0.8397949412577096,
+                                "frac": 0.35605653784600744,
+                                "mean": 0.0,
+                                "mean_glo": -0.07874421133902823,
+                                "rms": 0.8762676747390441,
+                                "rms_glo": 0.6054366482510128,
+                                "rmsc": 0.5002934085347194,
+                                "rmsc_glo": 0.5660478105760317,
+                                "stdv_pc": 1.8090459749003904,
+                                "stdv_pc_ratio_to_obs": 1.1817661870697134,
+                                "tcor_cbf_vs_eof_pc": 0.9662021284446949
+                            },
+                            "eof2": {
+                                "bias": 4.4830795715314876e-05,
+                                "bias_glo": 0.11372691303213107,
+                                "cor": 0.21700133314387554,
+                                "cor_glo": 0.2380761968671966,
+                                "frac": 0.11660028695294865,
+                                "mean": 6.327452580976185e-17,
+                                "mean_glo": 0.232026543255394,
+                                "rms": 1.6506328379516528,
+                                "rms_glo": 0.9669978226878493,
+                                "rmsc": 1.2513981661504756,
+                                "rmsc_glo": 1.2344422120868863,
+                                "stdv_pc": 1.035237347702356,
+                                "stdv_pc_ratio_to_obs": 0.6762727482222995,
+                                "tcor_cbf_vs_eof_pc": 0.13711225129877047
+                            },
+                            "eof3": {
+                                "bias": 4.898075650362264e-05,
+                                "bias_glo": -0.31142226820298885,
+                                "cor": 0.3219431996970723,
+                                "cor_glo": 0.26644067455503256,
+                                "frac": 0.10154288501723623,
+                                "mean": -5.2728771508134876e-17,
+                                "mean_glo": -0.19312264086631264,
+                                "rms": 1.5238383664738209,
+                                "rms_glo": 0.9776963780148539,
+                                "rmsc": 1.1645229132904245,
+                                "rmsc_glo": 1.2112467292036762,
+                                "stdv_pc": 0.9660839587634518,
+                                "stdv_pc_ratio_to_obs": 0.6310980329839113,
+                                "tcor_cbf_vs_eof_pc": 0.18969367702364082
+                            },
+                            "period": "1900-2005"
+                        },
+                        "JJA": {
+                            "best_matching_model_eofs__cor": 1,
+                            "best_matching_model_eofs__rms": 1,
+                            "best_matching_model_eofs__tcor_cbf_vs_eof_pc": 1,
+                            "cbf": {
+                                "bias": -7.397579050891146e-05,
+                                "bias_glo": 0.005990014415547182,
+                                "cor": 0.9280022192656763,
+                                "cor_glo": 0.8156567809078823,
+                                "frac": 0.15188074557514575,
+                                "frac_cbf_regrid": 0.1533490565308587,
+                                "mean": 4.21830172065079e-17,
+                                "mean_glo": 0.08492514991331238,
+                                "rms": 0.22158821359564423,
+                                "rms_glo": 0.23499483382410538,
+                                "rmsc": 0.3794674766868969,
+                                "rmsc_glo": 0.6071955485383316,
+                                "stdv_pc": 0.4681290419864652,
+                                "stdv_pc_ratio_to_obs": 0.7995243606664644
+                            },
+                            "eof1": {
+                                "bias": -4.0358443158632514e-05,
+                                "bias_glo": -0.02739825031336203,
+                                "cor": 0.8530114926032154,
+                                "cor_glo": 0.7731031802497633,
+                                "frac": 0.16040939272530558,
+                                "mean": 3.1637262904880925e-17,
+                                "mean_glo": 0.051536885116382505,
+                                "rms": 0.30616251342997014,
+                                "rms_glo": 0.26488111890606736,
+                                "rmsc": 0.542196475953107,
+                                "rmsc_glo": 0.6736420638351862,
+                                "stdv_pc": 0.5194541191776342,
+                                "stdv_pc_ratio_to_obs": 0.8871832022399225,
+                                "tcor_cbf_vs_eof_pc": 0.9446874115524175
+                            },
+                            "eof2": {
+                                "bias": -0.00013975346678224104,
+                                "bias_glo": 0.04296992257516083,
+                                "cor": 0.25750970581703037,
+                                "cor_glo": 0.22848643850300318,
+                                "frac": 0.10031558965838815,
+                                "mean": 4.21830172065079e-17,
+                                "mean_glo": 0.12190505678685458,
+                                "rms": 0.6221367593746193,
+                                "rms_glo": 0.4349511161536626,
+                                "rmsc": 1.218597775985184,
+                                "rmsc_glo": 1.2421864310814694,
+                                "stdv_pc": 0.41078683077527006,
+                                "stdv_pc_ratio_to_obs": 0.701588768883296,
+                                "tcor_cbf_vs_eof_pc": 0.22528736742631322
+                            },
+                            "eof3": {
+                                "bias": 5.846062904461629e-05,
+                                "bias_glo": -0.11134653225727953,
+                                "cor": 0.1617685651618113,
+                                "cor_glo": 0.16342144635379935,
+                                "frac": 0.08673259994543378,
+                                "mean": 3.5591920767991043e-17,
+                                "mean_glo": 0.03241139922336241,
+                                "rms": 0.6447063469671852,
+                                "rms_glo": 0.4555446573536401,
+                                "rmsc": 1.2947829598087721,
+                                "rmsc_glo": 1.2935057100441076,
+                                "stdv_pc": 0.3819649209039098,
+                                "stdv_pc_ratio_to_obs": 0.6523634122053568,
+                                "tcor_cbf_vs_eof_pc": -0.13156229977793435
+                            },
+                            "period": "1900-2005"
+                        },
+                        "MAM": {
+                            "best_matching_model_eofs__cor": 1,
+                            "best_matching_model_eofs__rms": 1,
+                            "best_matching_model_eofs__tcor_cbf_vs_eof_pc": 1,
+                            "cbf": {
+                                "bias": -0.0003443151337702975,
+                                "bias_glo": -0.12761560678110104,
+                                "cor": 0.9554831924041326,
+                                "cor_glo": 0.9117740387935926,
+                                "frac": 0.37653166032856744,
+                                "frac_cbf_regrid": 0.3787659834721197,
+                                "mean": 2.109150860325395e-17,
+                                "mean_glo": -0.02419277493406668,
+                                "rms": 0.6094097587452265,
+                                "rms_glo": 0.42121681989588244,
+                                "rmsc": 0.2983850089110338,
+                                "rmsc_glo": 0.42006180031194146,
+                                "stdv_pc": 1.402420612413429,
+                                "stdv_pc_ratio_to_obs": 1.4403713794050454
+                            },
+                            "eof1": {
+                                "bias": -0.00035091494660001264,
+                                "bias_glo": -0.13126872127861006,
+                                "cor": 0.942533908223435,
+                                "cor_glo": 0.898617172099034,
+                                "frac": 0.38107687839034776,
+                                "mean": 1.0545754301626975e-17,
+                                "mean_glo": -0.027845889520037546,
+                                "rms": 0.646701943384918,
+                                "rms_glo": 0.4419147349850243,
+                                "rmsc": 0.33901649551356533,
+                                "rmsc_glo": 0.450295072801958,
+                                "stdv_pc": 1.479198960298882,
+                                "stdv_pc_ratio_to_obs": 1.519227418651286,
+                                "tcor_cbf_vs_eof_pc": 0.9924057488160207
+                            },
+                            "eof2": {
+                                "bias": -7.009220762217106e-05,
+                                "bias_glo": -0.034679435905240086,
+                                "cor": 0.13748065810770324,
+                                "cor_glo": 0.11694765168115882,
+                                "frac": 0.12186407744611238,
+                                "mean": 3.6910140055694416e-17,
+                                "mean_glo": 0.06874339398899992,
+                                "rms": 1.1920065006481253,
+                                "rms_glo": 0.7223151371374542,
+                                "rmsc": 1.31340728599267,
+                                "rmsc_glo": 1.3289487042791663,
+                                "stdv_pc": 0.8364849776627667,
+                                "stdv_pc_ratio_to_obs": 0.8591210158087239,
+                                "tcor_cbf_vs_eof_pc": 0.0817998791873964
+                            },
+                            "eof3": {
+                                "bias": -0.00010069647978131616,
+                                "bias_glo": -0.2630793788950076,
+                                "cor": 0.028849010559808687,
+                                "cor_glo": -0.03984085843848661,
+                                "frac": 0.08832415992992591,
+                                "mean": 6.327452580976185e-17,
+                                "mean_glo": 0.15965655057887515,
+                                "rms": 1.1889030488600643,
+                                "rms_glo": 0.791798616090735,
+                                "rmsc": 1.3936649755017236,
+                                "rmsc_glo": 1.442110172080904,
+                                "stdv_pc": 0.7121312615768876,
+                                "stdv_pc_ratio_to_obs": 0.7314021759775546,
+                                "tcor_cbf_vs_eof_pc": -0.01462458526195453
+                            },
+                            "period": "1900-2005"
+                        },
+                        "SON": {
+                            "best_matching_model_eofs__cor": 2,
+                            "best_matching_model_eofs__rms": 3,
+                            "best_matching_model_eofs__tcor_cbf_vs_eof_pc": 1,
+                            "cbf": {
+                                "bias": -8.339472137581762e-05,
+                                "bias_glo": 0.10712038098218646,
+                                "cor": 0.9199134852034121,
+                                "cor_glo": 0.7389696757491312,
+                                "frac": 0.1460054758232733,
+                                "frac_cbf_regrid": 0.14703509127870454,
+                                "mean": 7.382028011138883e-17,
+                                "mean_glo": 0.10214007870125114,
+                                "rms": 0.28956177295352037,
+                                "rms_glo": 0.3505989146780106,
+                                "rmsc": 0.4002162250094637,
+                                "rmsc_glo": 0.7225376369630411,
+                                "stdv_pc": 0.6416411632945953,
+                                "stdv_pc_ratio_to_obs": 0.8709376165507192
+                            },
+                            "eof1": {
+                                "bias": -0.0001629095724976065,
+                                "bias_glo": 0.12745985875796925,
+                                "cor": 0.5201844173283089,
+                                "cor_glo": 0.45998397604113467,
+                                "frac": 0.19591644783333512,
+                                "mean": 6.327452580976185e-17,
+                                "mean_glo": 0.12247955766618303,
+                                "rms": 0.7591976717135449,
+                                "rms_glo": 0.5258201144069563,
+                                "rmsc": 0.9796076672165871,
+                                "rmsc_glo": 1.0392458997771716,
+                                "stdv_pc": 0.8094021260871489,
+                                "stdv_pc_ratio_to_obs": 1.09864952383326,
+                                "tcor_cbf_vs_eof_pc": 0.6551083318734259
+                            },
+                            "eof2": {
+                                "bias": 3.559738721807067e-06,
+                                "bias_glo": 0.03656638502320764,
+                                "cor": 0.5305980582424856,
+                                "cor_glo": 0.42524818436407014,
+                                "frac": 0.1293012142764309,
+                                "mean": 0.0,
+                                "mean_glo": -0.03158608040381846,
+                                "rms": 0.678476391430665,
+                                "rms_glo": 0.48051580143429046,
+                                "rmsc": 0.9689189156883138,
+                                "rmsc_glo": 1.0721490498555997,
+                                "stdv_pc": 0.6575521370079338,
+                                "stdv_pc_ratio_to_obs": 0.8925345250965225,
+                                "tcor_cbf_vs_eof_pc": -0.5426246868589409
+                            },
+                            "eof3": {
+                                "bias": 5.4647246564347275e-05,
+                                "bias_glo": 0.03074743079631145,
+                                "cor": 0.5053753322426526,
+                                "cor_glo": 0.3597870800206206,
+                                "frac": 0.09328525438982183,
+                                "mean": 1.9114179671698894e-17,
+                                "mean_glo": -0.02576712738597255,
+                                "rms": 0.6620232617710154,
+                                "rms_glo": 0.48050432232672075,
+                                "rmsc": 0.9946101618705664,
+                                "rmsc_glo": 1.131559031541605,
+                                "stdv_pc": 0.5585157079789995,
+                                "stdv_pc_ratio_to_obs": 0.7581065046009724,
+                                "tcor_cbf_vs_eof_pc": -0.43877313276359836
+                            },
+                            "period": "1900-2005"
+                        },
+                        "monthly": {
+                            "best_matching_model_eofs__cor": 1,
+                            "best_matching_model_eofs__rms": 1,
+                            "best_matching_model_eofs__tcor_cbf_vs_eof_pc": 1,
+                            "cbf": {
+                                "bias": -0.0004441290286841002,
+                                "bias_glo": -0.08290331707548068,
+                                "cor": 0.9828778765639079,
+                                "cor_glo": 0.9766289086873075,
+                                "frac": 0.23059972467761095,
+                                "frac_cbf_regrid": 0.2320884536625366,
+                                "mean": 4.21830172065079e-17,
+                                "mean_glo": 0.06167721112189246,
+                                "rms": 0.3672216784229578,
+                                "rms_glo": 0.24763874658534193,
+                                "rmsc": 0.1850520056471417,
+                                "rmsc_glo": 0.2161994015028035,
+                                "stdv_pc": 1.6487320159699714,
+                                "stdv_pc_ratio_to_obs": 1.1367088223578605
+                            },
+                            "eof1": {
+                                "bias": -0.00045917064526039173,
+                                "bias_glo": -0.11527243246042634,
+                                "cor": 0.9623577002282031,
+                                "cor_glo": 0.9543165147537196,
+                                "frac": 0.23434052910552133,
+                                "mean": 1.0545754301626975e-17,
+                                "mean_glo": 0.029308095739391263,
+                                "rms": 0.4924694914715811,
+                                "rms_glo": 0.32636537006787564,
+                                "rmsc": 0.2743803869930422,
+                                "rmsc_glo": 0.30226969942650916,
+                                "stdv_pc": 1.6936596040767238,
+                                "stdv_pc_ratio_to_obs": 1.1676838900301898,
+                                "tcor_cbf_vs_eof_pc": 0.9870373046358809
+                            },
+                            "eof2": {
+                                "bias": 8.09505003096903e-05,
+                                "bias_glo": 0.062313066489368046,
+                                "cor": 0.05375498312558331,
+                                "cor_glo": 0.07987209680898058,
+                                "frac": 0.09668836821002384,
+                                "mean": 8.43660344130158e-17,
+                                "mean_glo": 0.20689359013971978,
+                                "rms": 1.7647674764579309,
+                                "rms_glo": 1.0177030696889073,
+                                "rmsc": 1.3756780337230032,
+                                "rmsc_glo": 1.3565603011622862,
+                                "stdv_pc": 1.0879014146674872,
+                                "stdv_pc_ratio_to_obs": 0.7500473842503783,
+                                "tcor_cbf_vs_eof_pc": 0.03541696281332591
+                            },
+                            "eof3": {
+                                "bias": -5.2106000979023746e-05,
+                                "bias_glo": 0.01112541402672615,
+                                "cor": 0.22128174630069336,
+                                "cor_glo": 0.2334040489627175,
+                                "frac": 0.09488117093839571,
+                                "mean": 1.0545754301626975e-16,
+                                "mean_glo": 0.15570593810158628,
+                                "rms": 1.603074092280791,
+                                "rms_glo": 0.9247030647663077,
+                                "rmsc": 1.247972943905217,
+                                "rmsc_glo": 1.2382212713519838,
+                                "stdv_pc": 1.077686503490439,
+                                "stdv_pc_ratio_to_obs": 0.7430047723873937,
+                                "tcor_cbf_vs_eof_pc": 0.14432304091251486
+                            },
+                            "period": "1900-2005"
+                        },
+                        "target_model_eofs": 1
+                    }
+                }
+            }
+        }
+    },
+    "YAML": "name: cdat82_20191107_py37\nchannels:\n  - eumetsat\n  - pcmdi/label/nightly\n  - cdat/label/v82\n  - anaconda\n  - conda-forge\n  - defaults\ndependencies:\n  - _libgcc_mutex=0.1=main\n  - alabaster=0.7.12=py_0\n  - astroid=2.3.3=py37_0\n  - attrs=19.3.0=py_0\n  - autopep8=1.4.4=py_0\n  - babel=2.7.0=py_0\n  - backcall=0.1.0=py_0\n  - basemap=1.2.1=py37hd759880_1\n  - bleach=3.1.0=py_0\n  - bokeh=1.3.4=py37_0\n  - bzip2=1.0.8=h516909a_1\n  - ca-certificates=2019.10.16=0\n  - cdat=8.2=1\n  - cdat_info=8.2=py_3\n  - cdp=1.6.0=py_0\n  - cdtime=3.1.2=py37h7eb8c7e_4\n  - cdutil=8.2=py_0\n  - certifi=2019.9.11=py37_0\n  - cffi=1.13.2=py37h8022711_0\n  - chardet=3.0.4=py37_1003\n  - cia=0.0.6=0\n  - cibots=0.3=py37_1001\n  - click=7.0=py_0\n  - cloudpickle=1.2.2=py_0\n  - cryptography=2.8=py37h72c5cf5_0\n  - curl=7.65.3=hf8cf82a_0\n  - cycler=0.10.0=py_2\n  - cytoolz=0.10.1=py37h516909a_0\n  - dask=2.6.0=py_0\n  - dask-core=2.6.0=py_0\n  - dbus=1.13.6=he372182_0\n  - decorator=4.4.1=py_0\n  - defusedxml=0.6.0=py_0\n  - distarray=2.12.2=py_1\n  - distributed=2.6.0=py_0\n  - docutils=0.15.2=py37_0\n  - dv3d=8.2=py_0\n  - entrypoints=0.3=py37_1000\n  - eofs=1.4.0=py_0\n  - esmf=7.1.0=hcda5390_1008\n  - esmpy=7.1.0=py37h5ca1d4c_3\n  - expat=2.2.5=he1b5a44_1004\n  - ffmpeg=4.2=h167e202_0\n  - flake8=3.7.9=py37_0\n  - flask=1.1.1=py_0\n  - flask-cors=3.0.8=py_0\n  - fontconfig=2.13.1=h86ecdb6_1001\n  - freetype=2.10.0=he983fc9_1\n  - fsspec=0.5.2=py_0\n  - future=0.18.2=py37_0\n  - g2clib=1.6.0=hf3f1b0b_9\n  - genutil=8.2=py37h3010b51_0\n  - geos=3.7.2=he1b5a44_2\n  - gettext=0.19.8.1=hc5be6a0_1002\n  - ghostscript=9.22=hf484d3e_1001\n  - glib=2.58.3=h6f030ca_1002\n  - gmp=6.1.2=hf484d3e_1000\n  - gnutls=3.6.5=hd3a4fd2_1002\n  - gst-plugins-base=1.14.5=h0935bb2_0\n  - gstreamer=1.14.5=h36ae1b5_0\n  - hdf4=4.2.13=h9a582f1_1002\n  - hdf5=1.10.5=nompi_h3c11f04_1104\n  - heapdict=1.0.1=py_0\n  - icu=64.2=he1b5a44_1\n  - idna=2.8=py37_1000\n  - imagesize=1.1.0=py_0\n  - importlib_metadata=0.23=py37_0\n  - ipykernel=5.1.3=py37h5ca1d4c_0\n  - ipython=7.9.0=py37h5ca1d4c_0\n  - ipython_genutils=0.2.0=py_1\n  - ipywidgets=7.5.1=py_0\n  - isort=4.3.21=py37_0\n  - itsdangerous=1.1.0=py37_0\n  - jasper=1.900.1=h07fcdf6_1006\n  - jedi=0.15.1=py37_0\n  - jeepney=0.4.1=py_0\n  - jinja2=2.10.3=py_0\n  - jpeg=9c=h14c3975_1001\n  - json5=0.8.5=py_0\n  - jsonschema=3.1.1=py37_0\n  - jupyter=1.0.0=py_2\n  - jupyter_client=5.3.3=py37_1\n  - jupyter_console=6.0.0=py_0\n  - jupyter_core=4.5.0=py_0\n  - jupyterlab=1.2.1=py_0\n  - jupyterlab_server=1.0.6=py_0\n  - keyring=19.2.0=py37_0\n  - kiwisolver=1.1.0=py37hc9558a2_0\n  - krb5=1.16.3=h05b26f9_1001\n  - lame=3.100=h14c3975_1001\n  - lazy-object-proxy=1.4.3=py37h516909a_0\n  - libblas=3.8.0=11_openblas\n  - libcblas=3.8.0=11_openblas\n  - libcdms=3.1.2=h7dcd879_5\n  - libcf=1.0.3=py37hb508d2e_1\n  - libclang=9.0.0=hc9558a2_1\n  - libcurl=7.65.3=hda55be3_0\n  - libdrs=3.1.2=h8c6403c_5\n  - libdrs_f=3.1.2=h322d3c2_4\n  - libedit=3.1.20170329=hf8c457e_1001\n  - libffi=3.2.1=he1b5a44_1006\n  - libgcc=7.2.0=h69d50b8_2\n  - libgcc-ng=9.1.0=hdf63c60_0\n  - libgfortran-ng=7.3.0=hdf63c60_2\n  - libiconv=1.15=h516909a_1005\n  - liblapack=3.8.0=11_openblas\n  - libllvm9=9.0.0=hc9558a2_3\n  - libnetcdf=4.6.2=h303dfb8_1003\n  - libopenblas=0.3.6=h6e990d7_6\n  - libpng=1.6.37=hed695b0_0\n  - libsodium=1.0.17=h516909a_0\n  - libssh2=1.8.2=h22169c7_2\n  - libstdcxx-ng=9.1.0=hdf63c60_0\n  - libtiff=4.1.0=hfc65ed5_0\n  - libuuid=2.32.1=h14c3975_1000\n  - libxcb=1.13=h14c3975_1002\n  - libxkbcommon=0.9.1=hebb1f50_0\n  - libxml2=2.9.10=hee79883_0\n  - locket=0.2.0=py_2\n  - lz4-c=1.8.3=he1b5a44_1001\n  - markupsafe=1.1.1=py37h516909a_0\n  - matplotlib=3.1.2=py37_0\n  - matplotlib-base=3.1.2=py37h250f245_0\n  - mccabe=0.6.1=py_1\n  - mesalib=18.3.1=h590aaf7_0\n  - mistune=0.8.4=py37h516909a_1000\n  - more-itertools=7.2.0=py_0\n  - mpi=1.0=mpich\n  - mpich=3.3.1=hc856adb_1\n  - msgpack-python=0.6.2=py37hc9558a2_0\n  - nb_conda=2.2.1=py37_2\n  - nb_conda_kernels=2.2.2=py37_0\n  - nbconvert=5.6.1=py37_0\n  - nbformat=4.4.0=py_1\n  - ncurses=6.1=hf484d3e_1002\n  - ncview=2.1.8=gcc7_0\n  - netcdf-cxx4=4.3.0=h12383a8_5\n  - netcdf-fortran=4.4.5=h0789656_1004\n  - nettle=3.4.1=h1bed415_1002\n  - notebook=6.0.1=py37_0\n  - nspr=4.23=he1b5a44_0\n  - nss=3.47=he751ad9_0\n  - numpy=1.17.3=py37h95a1406_0\n  - numpydoc=0.9.1=py_0\n  - olefile=0.46=py_0\n  - openblas=0.3.6=h6e990d7_6\n  - openh264=1.8.0=hdbcaa40_1000\n  - openssl=1.1.1=h7b6447c_0\n  - output_viewer=1.3.1=py_1\n  - packaging=19.2=py_0\n  - pandas=0.25.3=py37hb3f55d8_0\n  - pandoc=2.7.3=0\n  - pandocfilters=1.4.2=py_1\n  - parso=0.5.1=py_0\n  - partd=1.0.0=py_0\n  - pcmdi_metrics=1.2.2019.10.23.22.56.g0bbec22=pyh39e3cac_0\n  - pcre=8.43=he1b5a44_0\n  - pexpect=4.7.0=py37_0\n  - pickleshare=0.7.5=py37_1000\n  - pillow=6.2.1=py37h6b7be26_0\n  - pip=19.3.1=py37_0\n  - proj4=5.2.0=he1b5a44_1006\n  - prometheus_client=0.7.1=py_0\n  - prompt_toolkit=2.0.10=py_0\n  - psutil=5.6.5=py37h516909a_0\n  - pthread-stubs=0.4=h14c3975_1001\n  - ptyprocess=0.6.0=py_1001\n  - pycodestyle=2.5.0=py_0\n  - pycparser=2.19=py37_1\n  - pyflakes=2.1.1=py_0\n  - pygments=2.4.2=py_0\n  - pylint=2.4.3=py37_0\n  - pyopenssl=19.0.0=py37_0\n  - pyparsing=2.4.4=py_0\n  - pyproj=1.9.6=py37h14380d9_0\n  - pyqt=5.12.3=py37hcca6a23_0\n  - pyrsistent=0.15.5=py37h516909a_0\n  - pyshp=2.1.0=py_0\n  - pysocks=1.7.1=py37_0\n  - pyspharm=1.0.9=py37h7eb8c7e_1004\n  - python=3.7.3=h33d41f4_1\n  - python-dateutil=2.8.1=py_0\n  - pytz=2019.3=py_0\n  - pyyaml=5.1.2=py37h516909a_0\n  - pyzmq=18.1.0=py37h1768529_0\n  - qt=5.12.5=hd8c4c69_1\n  - qtawesome=0.6.0=py_0\n  - qtconsole=4.5.5=py_0\n  - qtpy=1.9.0=py_0\n  - readline=8.0=hf8c457e_0\n  - requests=2.22.0=py37_1\n  - rope=0.14.0=py_0\n  - scipy=1.3.1=py37h921218d_2\n  - secretstorage=3.1.1=py37_0\n  - send2trash=1.5.0=py_0\n  - setuptools=41.6.0=py37_1\n  - six=1.13.0=py37_0\n  - snowballstemmer=2.0.0=py_0\n  - sortedcontainers=2.1.0=py_0\n  - sphinx=2.2.1=py_0\n  - sphinxcontrib-applehelp=1.0.1=py_0\n  - sphinxcontrib-devhelp=1.0.1=py_0\n  - sphinxcontrib-htmlhelp=1.0.2=py_0\n  - sphinxcontrib-jsmath=1.0.1=py_0\n  - sphinxcontrib-qthelp=1.0.2=py_0\n  - sphinxcontrib-serializinghtml=1.1.3=py_0\n  - spyder=3.3.6=py37_1\n  - spyder-kernels=0.5.2=py37_0\n  - sqlite=3.30.1=hcee41ef_0\n  - tblib=1.4.0=py_0\n  - terminado=0.8.2=py37_0\n  - testpath=0.4.4=py_0\n  - tk=8.6.9=hed695b0_1003\n  - toolz=0.10.0=py_0\n  - tornado=6.0.3=py37h516909a_0\n  - traitlets=4.3.3=py37_0\n  - udunits2=2.2.27.6=h4e0c4b3_1001\n  - urllib3=1.25.6=py37_0\n  - vcs=8.2=py_2\n  - vcsaddons=8.2=py37h516909a_1\n  - vtk-cdat=8.2.0.8.2=py37_mesalibhead77ed_0\n  - wcwidth=0.1.7=py_1\n  - webencodings=0.5.1=py_1\n  - werkzeug=0.16.0=py_0\n  - wheel=0.33.6=py37_0\n  - widgetsnbextension=3.5.1=py37_0\n  - windspharm=1.7.0=py37_1001\n  - wk=8.2=py_0\n  - wrapt=1.11.2=py37h516909a_0\n  - wurlitzer=1.0.3=py37_0\n  - x264=1!152.20180806=h14c3975_0\n  - xorg-libxau=1.0.9=h14c3975_0\n  - xorg-libxdmcp=1.1.3=h516909a_0\n  - xz=5.2.4=h14c3975_1001\n  - yaml=0.1.7=h14c3975_1001\n  - zeromq=4.3.2=he1b5a44_2\n  - zict=1.0.0=py_0\n  - zipp=0.6.0=py_0\n  - zlib=1.2.11=h516909a_1006\n  - zstd=1.4.3=h3b9ef0a_0\n  - pip:\n    - cdms2==3.1.4\n    - durolib==1.1.2\n    - ensometrics==0.1\n    - pyqt5-sip==4.19.18\n    - pyqtwebengine==5.12.1\n    - regrid2==3.1.4\nprefix: /export/lee1043/anaconda3/envs/cdat82_20191107_py37\n\n",
+    "json_structure": [
+        "model",
+        "realization",
+        "reference",
+        "mode",
+        "season",
+        "method",
+        "statistic"
+    ],
+    "json_version": 3.0,
+    "provenance": {
+        "commandLine": "variability_modes_driver.py -p ../doc/myParam_NAM_cmip6.py --case_id v20200221 --mip cmip6 --exp historical --modnames UKESM1-0-LL --realization r17i1p1f2 --no_nc_out_obs --no_plot_obs",
+        "conda": {
+            "Platform": "linux-64",
+            "PythonVersion": "3.7.3.final.0",
+            "Version": "4.7.12",
+            "buildVersion": "3.18.8"
+        },
+        "date": "2020-02-21 19:00:25",
+        "history": "%load interp.py\n# %load interp.py\nimport cdms2\n\nfile_input = '/work/lee1043/LDRD/rsync_lassen_cmip/cmip/cmip6/historical/day/tas/gr1/tas_day_GFDL-CM4_historical_r1i1p1f1_gr1_18500101-18691231.nc'\nfile_output = 'abc.nc'\nfile_refgrid = '/work/lee1043/LDRD/rsync_lassen_cmip/cmip/cmip6/historical/day/tos/gr/tos_Oday_GFDL-CM4_historical_r1i1p1f1_gr_18500101-18591231.nc'\n\nvar = 'ts'\nvar_refgrid = 'tos'\n\nfi = cdms2.open(file_input)\nfo = cdms2.open(file_output, 'w')\nfr = cdsm2.open(file_refgrid)\n\ndi = fi(var, time=slice(0,1))\ndr = fr(var_refgrid, time=slice(0,1))\n\nrefgrid = dr.getGrid()\n\ndo = di.regird(refgrid, regridTool='regrid2', mkCyclic=True)\n\nfo.write(do)\n\nfi.close()\nfo.close()\nfr.close()\n# %load interp.py\nimport cdms2\n\nfile_input = '/work/lee1043/LDRD/rsync_lassen_cmip/cmip/cmip6/historical/day/tas/gr1/tas_day_GFDL-CM4_historical_r1i1p1f1_gr1_18500101-18691231.nc'\nfile_output = 'abc.nc'\nfile_refgrid = '/work/lee1043/LDRD/rsync_lassen_cmip/cmip/cmip6/historical/day/tos/gr/tos_Oday_GFDL-CM4_historical_r1i1p1f1_gr_18500101-18591231.nc'\n\nvar = 'ts'\nvar_refgrid = 'tos'\n\nfi = cdms2.open(file_input)\nfo = cdms2.open(file_output, 'w')\nfr = cdms2.open(file_refgrid)\n\ndi = fi(var, time=slice(0,1))\ndr = fr(var_refgrid, time=slice(0,1))\n\nrefgrid = dr.getGrid()\n\ndo = di.regird(refgrid, regridTool='regrid2', mkCyclic=True)\n\nfo.write(do)\n\nfi.close()\nfo.close()\nfr.close()\n# %load interp.py\nimport cdms2\n\nfile_input = '/work/lee1043/LDRD/rsync_lassen_cmip/cmip/cmip6/historical/day/tas/gr1/tas_day_GFDL-CM4_historical_r1i1p1f1_gr1_18500101-18691231.nc'\nfile_output = 'abc.nc'\nfile_refgrid = '/work/lee1043/LDRD/rsync_lassen_cmip/cmip/cmip6/historical/day/tos/gr/tos_Oday_GFDL-CM4_historical_r1i1p1f1_gr_18500101-18591231.nc'\n\nvar = 'tas'\nvar_refgrid = 'tos'\n\nfi = cdms2.open(file_input)\nfo = cdms2.open(file_output, 'w')\nfr = cdms2.open(file_refgrid)\n\ndi = fi(var, time=slice(0,1))\ndr = fr(var_refgrid, time=slice(0,1))\n\nrefgrid = dr.getGrid()\n\ndo = di.regird(refgrid, regridTool='regrid2', mkCyclic=True)\n\nfo.write(do)\n\nfi.close()\nfo.close()\nfr.close()\n# %load interp.py\nimport cdms2\n\nfile_input = '/work/lee1043/LDRD/rsync_lassen_cmip/cmip/cmip6/historical/day/tas/gr1/tas_day_GFDL-CM4_historical_r1i1p1f1_gr1_18500101-18691231.nc'\nfile_output = 'abc.nc'\nfile_refgrid = '/work/lee1043/LDRD/rsync_lassen_cmip/cmip/cmip6/historical/day/tos/gr/tos_Oday_GFDL-CM4_historical_r1i1p1f1_gr_18500101-18591231.nc'\n\nvar = 'tas'\nvar_refgrid = 'tos'\n\nfi = cdms2.open(file_input)\nfo = cdms2.open(file_output, 'w')\nfr = cdms2.open(file_refgrid)\ndi = fi[var, time=slice(0,1)]\ndr = fr(var_refgrid, time=slice(0,1))\ndi = fi[var]\ndr = fr(var_refgrid, time=slice(0,1))\n",
+        "openGL": {
+            "GLX": {
+                "client": {},
+                "server": {}
+            }
+        },
+        "osAccess": false,
+        "packages": {
+            "PMP": "v1.2.1-243-gcccb7c9",
+            "PMPObs": "See 'References' key below, for detailed obs provenance information.",
+            "blas": "0.3.6",
+            "cdat_info": "8.2",
+            "cdms": "3.1.4",
+            "cdp": "1.6.0",
+            "cdtime": "3.1.2",
+            "cdutil": "8.2",
+            "clapack": null,
+            "esmf": "7.1.0",
+            "esmpy": "7.1.0",
+            "genutil": "8.2",
+            "lapack": "3.8.0",
+            "matplotlib": "3.1.2",
+            "mesalib": "18.3.1",
+            "numpy": "1.17.3",
+            "python": "3.7.3",
+            "scipy": "1.3.1",
+            "uvcdat": null,
+            "vcs": "8.2",
+            "vtk": "8.2.0.8.2"
+        },
+        "platform": {
+            "Name": "gates.llnl.gov",
+            "OS": "Linux",
+            "Version": "3.10.0-1062.1.2.el7.x86_64"
+        },
+        "script": "#!/usr/bin/env python\n\n\"\"\"\n# Modes of Variability Metrics\n- Calculate metrics for modes of varibility from archive of CMIP models\n- Author: Jiwoo Lee (lee1043@llnl.gov), PCMDI, LLNL\n\n## EOF1 based variability modes\n- NAM: Northern Annular Mode\n- NAO: Northern Atlantic Oscillation\n- SAM: Southern Annular Mode\n- PNA: Pacific North American Pattern\n- PDO: Pacific Decadal Oscillation\n\n## EOF2 based variability modes\n- NPO: North Pacific Oscillation (2nd EOFs of PNA domain)\n- NPGO: North Pacific Gyre Oscillation (2nd EOFs of PDO domain)\n\n## Reference:\nLee, J., K. Sperber, P. Gleckler, C. Bonfils, and K. Taylor, 2019:\nQuantifying the Agreement Between Observed and Simulated Extratropical Modes of\nInterannual Variability. Climate Dynamics.\nhttps://doi.org/10.1007/s00382-018-4355-4\n\n## Auspices:\nThis work was performed under the auspices of the U.S. Department of\nEnergy by Lawrence Livermore National Laboratory under Contract\nDE-AC52-07NA27344. Lawrence Livermore National Laboratory is operated by\nLawrence Livermore National Security, LLC, for the U.S. Department of Energy,\nNational Nuclear Security Administration under Contract DE-AC52-07NA27344.\n\n## Disclaimer:\nThis document was prepared as an account of work sponsored by an\nagency of the United States government. Neither the United States government\nnor Lawrence Livermore National Security, LLC, nor any of their employees\nmakes any warranty, expressed or implied, or assumes any legal liability or\nresponsibility for the accuracy, completeness, or usefulness of any\ninformation, apparatus, product, or process disclosed, or represents that its\nuse would not infringe privately owned rights. Reference herein to any specific\ncommercial product, process, or service by trade name, trademark, manufacturer,\nor otherwise does not necessarily constitute or imply its endorsement,\nrecommendation, or favoring by the United States government or Lawrence\nLivermore National Security, LLC. The views and opinions of authors expressed\nherein do not necessarily state or reflect those of the United States\ngovernment or Lawrence Livermore National Security, LLC, and shall not be used\nfor advertising or product endorsement purposes.\n\"\"\"\n\nfrom __future__ import print_function\nfrom argparse import RawTextHelpFormatter\nfrom genutil import StringConstructor\nfrom shutil import copyfile\nfrom pcmdi_metrics.variability_mode.lib import (\n    AddParserArgument, VariabilityModeCheck, YearCheck,\n    calc_stats_save_dict, calcTCOR, calcSTD,\n    eof_analysis_get_variance_mode,\n    linear_regression_on_globe_for_teleconnection,\n    gain_pseudo_pcs, gain_pcs_fraction, adjust_timeseries,\n    model_land_mask_out,\n    tree, write_nc_output, get_domain_range, read_data_in, debug_print, sort_human,\n    mov_metrics_to_json,\n    plot_map)\nimport cdtime\nimport glob\nimport json\nimport MV2\nimport os\nimport pcmdi_metrics\nimport pkg_resources\nimport sys\n\n# To avoid below error\n# OpenBLAS blas_thread_init: pthread_create failed for thread XX of 96: Resource temporarily unavailable\nos.environ['OPENBLAS_NUM_THREADS'] = '1'\n\n# Must be done before any CDAT library is called.\n# https://github.com/CDAT/cdat/issues/2213\nif 'UVCDAT_ANONYMOUS_LOG' not in os.environ:\n    os.environ['UVCDAT_ANONYMOUS_LOG'] = 'no'\n\nregions_specs = {}\negg_pth = pkg_resources.resource_filename(\n    pkg_resources.Requirement.parse(\"pcmdi_metrics\"),\n    \"share/pmp\")\nexec(compile(open(os.path.join(egg_pth, \"default_regions.py\")).read(),\n             os.path.join(egg_pth, \"default_regions.py\"), 'exec'))\n\n# =================================================\n# Collect user defined options\n# -------------------------------------------------\nP = pcmdi_metrics.driver.pmp_parser.PMPParser(\n        description='Runs PCMDI Modes of Variability Computations',\n        formatter_class=RawTextHelpFormatter)\nP = AddParserArgument(P)\nparam = P.get_parameter()\n\n# Pre-defined options\nmip = param.mip\nexp = param.exp\nfq = param.frequency\nrealm = param.realm\nprint('mip:', mip)\nprint('exp:', exp)\nprint('fq:', fq)\nprint('realm:', realm)\n\n# On/off switches\nobs_compare = True  # Statistics against observation\nCBF = param.CBF  # Conduct CBF analysis\nConvEOF = param.ConvEOF  # Conduct conventional EOF analysis\n\nEofScaling = param.EofScaling  # If True, consider EOF with unit variance\nRmDomainMean = param.RemoveDomainMean  # If True, remove Domain Mean of each time step\nLandMask = param.landmask  # If True, maskout land region thus consider only over ocean\n\nnc_out_obs = param.nc_out_obs  # Record NetCDF output\nplot_obs = param.plot_obs  # Generate plots\nnc_out_model = param.nc_out  # Record NetCDF output\nplot_model = param.plot  # Generate plots\nupdate_json = param.update_json\n\nprint('nc_out_obs, plot_obs:', nc_out_obs, plot_obs)\nprint('nc_out_model, plot_model:', nc_out_model, plot_model)\n\n# Check given mode of variability\nmode = VariabilityModeCheck(param.variability_mode, P)\nprint('mode:', mode)\n\n# Variables\nvar = param.varModel\n\n# Check dependency for given season option\nseasons = param.seasons\nprint('seasons:', seasons)\n\n# Observation information\nobs_name = param.reference_data_name\nobs_path = param.reference_data_path\nobs_var = param.varOBS\n\n# Path to model data as string template\nmodpath = StringConstructor(param.modpath)\nif LandMask:\n    modpath_lf = StringConstructor(param.modpath_lf)\n\n# Check given model option\nmodels = param.modnames\n\n# Include all models if conditioned\nif ('all' in [m.lower() for m in models]) or (models == 'all'):\n    model_index_path = param.modpath.split('/')[-1].split('.').index(\"%(model)\")\n    models = ([p.split('/')[-1].split('.')[model_index_path] for p in glob.glob(modpath(\n                mip=mip, exp=exp, model='*', realization='*', variable=var))])\n    # remove duplicates\n    models = sorted(list(dict.fromkeys(models)), key=lambda s: s.lower())\n\nprint('models:', models)\nprint('number of models:', len(models))\n\n# Realizations\nrealization = param.realization\nprint('realization: ', realization)\n\n# EOF ordinal number\neofn_obs = int(param.eofn_obs)\neofn_mod = int(param.eofn_mod)\n\n# case id\ncase_id = param.case_id\n\n# Output\noutdir_template = param.process_templated_argument(\"results_dir\")\noutdir = StringConstructor(str(outdir_template(\n    output_type='%(output_type)',\n    mip=mip, exp=exp, variability_mode=mode, reference_data_name=obs_name, case_id=case_id)))\n\n# Debug\ndebug = param.debug\n\n# Year\nmsyear = param.msyear\nmeyear = param.meyear\nYearCheck(msyear, meyear, P)\n\nosyear = param.osyear\noeyear = param.oeyear\nYearCheck(osyear, oeyear, P)\n\n# Units adjustment\nObsUnitsAdjust = param.ObsUnitsAdjust\nModUnitsAdjust = param.ModUnitsAdjust\n\n# lon1g and lon2g is for global map plotting\nif mode in ['PDO', 'NPGO']:\n    lon1g = 0\n    lon2g = 360\nelse:\n    lon1g = -180\n    lon2g = 180\n\n# parallel\nparallel = param.parallel\nprint('parallel:', parallel)\n\n# =================================================\n# Time period adjustment\n# -------------------------------------------------\nstart_time = cdtime.comptime(msyear, 1, 1, 0, 0)\nend_time = cdtime.comptime(meyear, 12, 31, 23, 59)\n\ntry:\n    # osyear and oeyear variables were defined.\n    start_time_obs = cdtime.comptime(osyear, 1, 1, 0, 0)\n    end_time_obs = cdtime.comptime(oeyear, 12, 31, 23, 59)\nexcept NameError:\n    # osyear, oeyear variables were NOT defined\n    start_time_obs = start_time\n    end_time_obs = end_time\n\n# =================================================\n# Region control\n# -------------------------------------------------\nregion_subdomain = get_domain_range(mode, regions_specs)\n\n# =================================================\n# Create output directories\n# -------------------------------------------------\nfor output_type in ['graphics', 'diagnostic_results', 'metrics_results']:\n    if not os.path.exists(outdir(output_type=output_type)):\n        os.makedirs(outdir(output_type=output_type))\n    print(outdir(output_type=output_type))\n\n# =================================================\n# Set dictionary for .json record\n# -------------------------------------------------\nresult_dict = tree()\n\n# Set metrics output JSON file\njson_filename = '_'.join(['var', 'mode', mode, 'EOF'+str(eofn_mod), 'stat',\n                          mip, exp, fq, realm, str(msyear)+'-'+str(meyear)])\n\njson_file = os.path.join(outdir(output_type='metrics_results'), json_filename + '.json')\njson_file_org = os.path.join(\n    outdir(output_type='metrics_results'), '_'.join([json_filename, 'org', str(os.getpid())])+'.json')\n\n# Archive if there is pre-existing JSON: preventing overwriting\nif os.path.isfile(json_file) and os.stat(json_file).st_size > 0:\n    copyfile(json_file, json_file_org)\n    if update_json:\n        fj = open(json_file)\n        result_dict = json.loads(fj.read())\n        fj.close()\n\nif 'REF' not in list(result_dict.keys()):\n    result_dict['REF'] = {}\nif 'RESULTS' not in list(result_dict.keys()):\n    result_dict['RESULTS'] = {}\n\n# =================================================\n# Observation\n# -------------------------------------------------\nif obs_compare:\n\n    # read data in\n    obs_timeseries, osyear, oeyear = read_data_in(\n        obs_path, obs_var, var,\n        start_time_obs, end_time_obs,\n        ObsUnitsAdjust, LandMask, debug=debug)\n\n    # Save global grid information for regrid below\n    ref_grid_global = obs_timeseries.getGrid()\n\n    # Declare dictionary variables to keep information from observation\n    eof_obs = {}\n    pc_obs = {}\n    frac_obs = {}\n    solver_obs = {}\n    reverse_sign_obs = {}\n    eof_lr_obs = {}\n    stdv_pc_obs = {}\n\n    # Dictonary for json archive\n    if 'obs' not in list(result_dict['REF'].keys()):\n        result_dict['REF']['obs'] = {}\n    if 'defaultReference' not in list(result_dict['REF']['obs'].keys()):\n        result_dict['REF']['obs']['defaultReference'] = {}\n    if ('source' not in list(\n            result_dict['REF']['obs']['defaultReference'].keys())):\n        result_dict['REF']['obs']['defaultReference']['source'] = {}\n    if(mode not in list(\n            result_dict['REF']['obs']['defaultReference'].keys())):\n        result_dict['REF']['obs']['defaultReference'][mode] = {}\n\n    result_dict['REF']['obs']['defaultReference']['source'] = obs_path\n    result_dict['REF']['obs']['defaultReference']['reference_eofs'] = eofn_obs\n    result_dict['REF']['obs']['defaultReference']['period'] = str(osyear)+'-'+str(oeyear)\n\n    # -------------------------------------------------\n    # Season loop\n    # - - - - - - - - - - - - - - - - - - - - - - - - -\n    debug_print('obs season loop starts', debug)\n\n    for season in seasons:\n        debug_print('season: '+season, debug)\n\n        if (season not in list(\n                result_dict['REF']['obs']['defaultReference'][mode].keys())):\n            result_dict['REF']['obs']['defaultReference'][mode][season] = {}\n\n        dict_head_obs = result_dict['REF']['obs']['defaultReference'][mode][season]\n\n        # Time series adjustment (remove annual cycle, seasonal mean (if needed),\n        # and subtracting domain (or global) mean of each time step)\n        debug_print('time series adjustment', debug)\n        obs_timeseries_season = adjust_timeseries(obs_timeseries, mode, season, region_subdomain, RmDomainMean)\n\n        # Extract subdomain\n        obs_timeseries_season_subdomain = obs_timeseries_season(region_subdomain)\n\n        # EOF analysis\n        debug_print('EOF analysis', debug)\n        eof_obs[season], pc_obs[season], frac_obs[season], reverse_sign_obs[season], \\\n            solver_obs[season] = eof_analysis_get_variance_mode(\n                mode, obs_timeseries_season_subdomain, eofn=eofn_obs,\n                debug=debug, EofScaling=EofScaling)\n\n        # Calculate stdv of pc time series\n        debug_print('calculate stdv of pc time series', debug)\n        stdv_pc_obs[season] = calcSTD(pc_obs[season])\n\n        # Linear regression to have extended global map; teleconnection purpose\n        eof_lr_obs[season], slope_obs, intercept_obs = linear_regression_on_globe_for_teleconnection(\n            pc_obs[season], obs_timeseries_season, stdv_pc_obs[season],\n            RmDomainMean, EofScaling, debug=debug)\n\n        # - - - - - - - - - - - - - - - - - - - - - - - - -\n        # Record results\n        # . . . . . . . . . . . . . . . . . . . . . . . . .\n        debug_print('record results', debug)\n\n        # Set output file name for NetCDF and plot\n        output_filename_obs = '_'.join([\n            mode, var, 'EOF'+str(eofn_obs), season, 'obs',\n            str(osyear)+'-'+str(oeyear)])\n        if EofScaling:\n            output_filename_obs += '_EOFscaled'\n\n        # Save global map, pc timeseries, and fraction in NetCDF output\n        if nc_out_obs:\n            output_nc_file_obs = os.path.join(\n                outdir(output_type='diagnostic_results'),\n                output_filename_obs)\n            write_nc_output(\n                output_nc_file_obs, eof_lr_obs[season], pc_obs[season],\n                frac_obs[season], slope_obs, intercept_obs)\n\n        # Plotting\n        if plot_obs:\n            output_img_file_obs = os.path.join(\n                outdir(output_type='graphics'),\n                output_filename_obs)\n            # plot_map(mode, '[REF] '+obs_name, osyear, oeyear, season,\n            #          eof_obs[season], frac_obs[season],\n            #          output_img_file_obs+'_org_eof')\n            plot_map(mode, '[REF] '+obs_name, osyear, oeyear, season,\n                     eof_lr_obs[season](region_subdomain),\n                     frac_obs[season], output_img_file_obs)\n            plot_map(mode+'_teleconnection', '[REF] '+obs_name, osyear,\n                     oeyear, season,\n                     eof_lr_obs[season](longitude=(lon1g, lon2g)),\n                     frac_obs[season], output_img_file_obs+'_teleconnection')\n            debug_print('obs plotting end', debug)\n\n        # Save stdv of PC time series in dictionary\n        dict_head_obs['stdv_pc'] = stdv_pc_obs[season]\n        dict_head_obs['frac'] = float(frac_obs[season])\n\n        # Mean\n        mean_obs = cdutil.averager(eof_obs[season], axis='yx', weights='weighted')\n        mean_glo_obs = cdutil.averager(eof_lr_obs[season], axis='yx', weights='weighted')\n        dict_head_obs['mean'] = float(mean_obs)\n        dict_head_obs['mean_glo'] = float(mean_glo_obs)\n        debug_print('obs mean end', debug)\n\n        # North test -- make this available as option later...\n        # execfile('../north_test.py')\n\n    debug_print('obs end', debug)\n\n# =================================================\n# Model\n# -------------------------------------------------\nfor model in models:\n    print(' ----- ', model, ' ---------------------')\n\n    if model not in list(result_dict['RESULTS'].keys()):\n        result_dict['RESULTS'][model] = {}\n\n    model_path_list = glob.glob(\n        modpath(mip=mip, exp=exp, model=model, realization=realization, variable=var))\n\n    model_path_list = sort_human(model_path_list)\n\n    debug_print('model_path_list: '+str(model_path_list), debug)\n\n    # Find where run can be gripped from given filename template for modpath\n    run_in_modpath = modpath(\n        mip=mip, exp=exp, model=model, realization=realization,\n        variable=var).split('/')[-1].split('.').index(realization)\n\n    # -------------------------------------------------\n    # Run\n    # -------------------------------------------------\n    for model_path in model_path_list:\n\n        try:\n            run = (model_path.split('/')[-1]).split('.')[run_in_modpath]\n            print(' --- ', run, ' ---')\n\n            if run not in list(result_dict['RESULTS'][model].keys()):\n                result_dict['RESULTS'][model][run] = {}\n            if ('defaultReference' not in list(\n                    result_dict['RESULTS'][model][run].keys())):\n                result_dict['RESULTS'][model][run]['defaultReference'] = {}\n            if (mode not in list(\n                    result_dict['RESULTS'][model][run]['defaultReference'].keys())):\n                result_dict['RESULTS'][model][run]['defaultReference'][mode] = {}\n            result_dict['RESULTS'][model][run]['defaultReference'][mode]['target_model_eofs'] = eofn_mod\n\n            # read data in\n            model_timeseries, msyear, meyear = read_data_in(\n                model_path, var, var,\n                start_time, end_time,\n                ModUnitsAdjust, LandMask, debug=debug)\n\n            # landmask if required\n            if LandMask:\n                model_lf_path = modpath_lf(mip=mip, exp=exp, model=model)\n                # Extract SST (land region mask out)\n                model_timeseries = model_land_mask_out(\n                    model, model_timeseries, model_lf_path)\n\n            debug_print('msyear: '+str(msyear)+' meyear: '+str(meyear), debug)\n\n            # -------------------------------------------------\n            # Season loop\n            # - - - - - - - - - - - - - - - - - - - - - - - - -\n            for season in seasons:\n                debug_print('season: '+season, debug)\n\n                if (season not in list(\n                        result_dict['RESULTS'][model][run]['defaultReference'][mode].keys())):\n                    result_dict['RESULTS'][model][run]['defaultReference'][mode][season] = {}\n                result_dict['RESULTS'][model][run]['defaultReference'][mode][season]['period'] = (\n                        str(msyear)+'-'+str(meyear))\n\n                # Time series adjustment (remove annual cycle, seasonal mean (if needed),\n                # and subtracting domain (or global) mean of each time step)\n                debug_print('time series adjustment', debug)\n                model_timeseries_season = adjust_timeseries(\n                        model_timeseries, mode, season, region_subdomain, RmDomainMean)\n\n                # Extract subdomain\n                debug_print('extract subdomain', debug)\n                model_timeseries_season_subdomain = model_timeseries_season(region_subdomain)\n\n                # -------------------------------------------------\n                # Common Basis Function Approach\n                # - - - - - - - - - - - - - - - - - - - - - - - - -\n                if CBF and obs_compare:\n\n                    if ('cbf' not in list(\n                            result_dict['RESULTS'][model][run]['defaultReference'][mode][season].keys())):\n                        result_dict['RESULTS'][model][run]['defaultReference'][mode][season]['cbf'] = {}\n                    dict_head = result_dict['RESULTS'][model][run]['defaultReference'][mode][season]['cbf']\n                    debug_print('CBF approach start', debug)\n\n                    # Regrid (interpolation, model grid to ref grid)\n                    model_timeseries_season_regrid = model_timeseries_season.regrid(\n                        ref_grid_global, regridTool='regrid2', mkCyclic=True)\n                    model_timeseries_season_regrid_subdomain = model_timeseries_season_regrid(region_subdomain)\n\n                    # Matching model's missing value location to that of observation\n                    # Save axes for preserving\n                    axes = model_timeseries_season_regrid_subdomain.getAxisList()\n                    # 1) Replace model's masked grid to 0, so theoritically won't affect to result\n                    model_timeseries_season_regrid_subdomain = MV2.array(\n                        model_timeseries_season_regrid_subdomain.filled(0.))\n                    # 2) Give obs's mask to model field, so enable projecField functionality below\n                    model_timeseries_season_regrid_subdomain.mask = eof_obs[season].mask\n                    # Preserve axes\n                    model_timeseries_season_regrid_subdomain.setAxisList(axes)\n\n                    # CBF PC time series\n                    cbf_pc = gain_pseudo_pcs(\n                        solver_obs[season],\n                        model_timeseries_season_regrid_subdomain,\n                        eofn_obs,\n                        reverse_sign_obs[season],\n                        EofScaling=EofScaling)\n\n                    # Calculate stdv of cbf pc time series\n                    stdv_cbf_pc = calcSTD(cbf_pc)\n\n                    # Linear regression to have extended global map; teleconnection purpose\n                    eof_lr_cbf, slope_cbf, intercept_cbf = linear_regression_on_globe_for_teleconnection(\n                        cbf_pc, model_timeseries_season, stdv_cbf_pc,\n                        # cbf_pc, model_timeseries_season_regrid, stdv_cbf_pc,\n                        RmDomainMean, EofScaling, debug=debug)\n\n                    # Extract subdomain for statistics\n                    eof_lr_cbf_subdomain = eof_lr_cbf(region_subdomain)\n\n                    # Calculate fraction of variance explained by cbf pc\n                    frac_cbf = gain_pcs_fraction(\n                        # model_timeseries_season_regrid_subdomain,  # regridded model anomaly space\n                        model_timeseries_season_subdomain,  # native grid model anomaly space\n                        eof_lr_cbf_subdomain,\n                        cbf_pc/stdv_cbf_pc, debug=debug)\n\n                    # SENSITIVITY TEST ---\n                    # Calculate fraction of variance explained by cbf pc (on regrid domain)\n                    frac_cbf_regrid = gain_pcs_fraction(\n                        model_timeseries_season_regrid_subdomain,\n                        eof_lr_cbf_subdomain,\n                        cbf_pc/stdv_cbf_pc, debug=debug)\n                    dict_head['frac_cbf_regrid'] = float(frac_cbf_regrid)\n\n                    # - - - - - - - - - - - - - - - - - - - - - - - - -\n                    # Record results\n                    # - - - - - - - - - - - - - - - - - - - - - - - - -\n                    # Metrics results -- statistics to JSON\n                    dict_head, eof_lr_cbf = calc_stats_save_dict(\n                            dict_head, eof_lr_cbf_subdomain, eof_lr_cbf, slope_cbf,\n                            cbf_pc, stdv_cbf_pc, frac_cbf,\n                            region_subdomain,\n                            eof_obs[season], eof_lr_obs[season], stdv_pc_obs[season],\n                            obs_compare=obs_compare, method='cbf', debug=debug)\n\n                    # Set output file name for NetCDF and plot images\n                    output_filename = '_'.join([\n                            mode, var, 'EOF'+str(eofn_mod), season, mip,\n                            model, exp, run, fq, realm,\n                            str(msyear)+'-'+str(meyear)])\n                    if EofScaling:\n                        output_filename += '_EOFscaled'\n\n                    # Diagnostics results -- data to NetCDF\n                    # Save global map, pc timeseries, and fraction in NetCDF output\n                    output_nc_file = os.path.join(\n                            outdir(output_type='diagnostic_results'),\n                            output_filename)\n                    if nc_out_model:\n                        write_nc_output(\n                            output_nc_file+'_cbf', eof_lr_cbf,\n                            cbf_pc, frac_cbf, slope_cbf, intercept_cbf)\n\n                    # Graphics -- plot map image to PNG\n                    output_img_file = os.path.join(\n                        outdir(output_type='graphics'),\n                        output_filename)\n                    if plot_model:\n                        plot_map(mode,\n                                 mip.upper()+' '+model+' ('+run+')'+' - CBF',\n                                 msyear, meyear, season,\n                                 eof_lr_cbf(region_subdomain), frac_cbf,\n                                 output_img_file+'_cbf')\n                        plot_map(mode+'_teleconnection',\n                                 mip.upper()+' '+model+' ('+run+')'+' - CBF',\n                                 msyear, meyear, season,\n                                 eof_lr_cbf(longitude=(lon1g, lon2g)), frac_cbf,\n                                 output_img_file+'_cbf_teleconnection')\n\n                    debug_print('cbf pcs end', debug)\n\n                # -------------------------------------------------\n                # Conventional EOF approach as supplementary\n                # - - - - - - - - - - - - - - - - - - - - - - - - -\n                if ConvEOF:\n\n                    eofn_mod_max = 3\n\n                    # EOF analysis\n                    debug_print('conventional EOF analysis start', debug)\n                    eof_list, pc_list, frac_list, reverse_sign_list, solver = \\\n                        eof_analysis_get_variance_mode(\n                            mode,\n                            model_timeseries_season_subdomain,\n                            eofn=eofn_mod, eofn_max=eofn_mod_max,\n                            debug=debug, EofScaling=EofScaling,\n                            save_multiple_eofs=True)\n                    debug_print('conventional EOF analysis done', debug)\n\n                    # -------------------------------------------------\n                    # For multiple EOFs (e.g., EOF1, EOF2, EOF3, ...)\n                    # - - - - - - - - - - - - - - - - - - - - - - - - -\n                    rms_list = []\n                    cor_list = []\n                    tcor_list = []\n\n                    for n in range(0, eofn_mod_max):\n                        eofs = 'eof'+str(n+1)\n                        if (eofs not in list(\n                                result_dict['RESULTS'][model][run]['defaultReference'][mode][season].keys())):\n                            result_dict['RESULTS'][model][run]['defaultReference'][mode][season][eofs] = {}\n                            dict_head = result_dict['RESULTS'][model][run]['defaultReference'][mode][season][eofs]\n\n                        # Component for each EOFs\n                        eof = eof_list[n]\n                        pc = pc_list[n]\n                        frac = frac_list[n]\n\n                        # Calculate stdv of pc time series\n                        stdv_pc = calcSTD(pc)\n\n                        # Linear regression to have extended global map:\n                        eof_lr, slope, intercept = linear_regression_on_globe_for_teleconnection(\n                            pc, model_timeseries_season, stdv_pc,\n                            RmDomainMean, EofScaling, debug=debug)\n\n                        # - - - - - - - - - - - - - - - - - - - - - - - - -\n                        # Record results\n                        # - - - - - - - - - - - - - - - - - - - - - - - - -\n                        # Metrics results -- statistics to JSON\n                        if obs_compare:\n                            dict_head, eof_lr = calc_stats_save_dict(\n                                dict_head, eof, eof_lr, slope, pc, stdv_pc, frac,\n                                region_subdomain,\n                                eof_obs=eof_obs[season], eof_lr_obs=eof_lr_obs[season], stdv_pc_obs=stdv_pc_obs[season],\n                                obs_compare=obs_compare, method='eof', debug=debug)\n                        else:\n                            dict_head, eof_lr = calc_stats_save_dict(\n                                dict_head, eof, eof_lr, slope, pc, stdv_pc, frac,\n                                region_subdomain,\n                                obs_compare=obs_compare, method='eof', debug=debug)\n\n                        # Temporal correlation between CBF PC timeseries and usual model PC timeseries\n                        if CBF:\n                            tc = calcTCOR(cbf_pc, pc)\n                            debug_print('cbf tc end', debug)\n                            dict_head['tcor_cbf_vs_eof_pc'] = tc\n\n                        # Set output file name for NetCDF and plot images\n                        output_filename = '_'.join([\n                            mode, var, 'EOF'+str(n+1), season, mip,\n                            model, exp, run, fq, realm,\n                            str(msyear)+'-'+str(meyear)])\n                        if EofScaling:\n                            output_filename += '_EOFscaled'\n\n                        # Diagnostics results -- data to NetCDF\n                        # Save global map, pc timeseries, and fraction in NetCDF output\n                        output_nc_file = os.path.join(\n                            outdir(output_type='diagnostic_results'),\n                            output_filename)\n                        if nc_out_model:\n                            write_nc_output(\n                                output_nc_file, eof_lr, pc, frac, slope, intercept)\n\n                        # Graphics -- plot map image to PNG\n                        output_img_file = os.path.join(\n                            outdir(output_type='graphics'),\n                            output_filename)\n                        if plot_model:\n                            # plot_map(mode,\n                            #          mip.upper()+' '+model+' ('+run+')',\n                            #          msyear, meyear, season,\n                            #          eof, frac,\n                            #          output_img_file+'_org_eof')\n                            plot_map(mode,\n                                     mip.upper()+' '+model+' ('+run+') - EOF'+str(n+1),\n                                     msyear, meyear, season,\n                                     eof_lr(region_subdomain), frac,\n                                     output_img_file)\n                            plot_map(mode+'_teleconnection',\n                                     mip.upper()+' '+model+' ('+run+') - EOF'+str(n+1),\n                                     msyear, meyear, season,\n                                     eof_lr(longitude=(lon1g, lon2g)), frac,\n                                     output_img_file+'_teleconnection')\n\n                        # - - - - - - - - - - - - - - - - - - - - - - - - -\n                        # EOF swap diagnosis\n                        # - - - - - - - - - - - - - - - - - - - - - - - - -\n                        rms_list.append(dict_head['rms'])\n                        cor_list.append(dict_head['cor'])\n                        if CBF:\n                            tcor_list.append(dict_head['tcor_cbf_vs_eof_pc'])\n\n                    # Find best matching eofs with different criteria\n                    best_matching_eofs_rms = rms_list.index(min(rms_list))+1\n                    best_matching_eofs_cor = cor_list.index(max(cor_list))+1\n                    if CBF:\n                        best_matching_eofs_tcor = tcor_list.index(max(tcor_list))+1\n\n                    # Save the best matching information to JSON\n                    dict_head = result_dict['RESULTS'][model][run]['defaultReference'][mode][season]\n                    dict_head['best_matching_model_eofs__rms'] = best_matching_eofs_rms\n                    dict_head['best_matching_model_eofs__cor'] = best_matching_eofs_cor\n                    if CBF:\n                        dict_head['best_matching_model_eofs__tcor_cbf_vs_eof_pc'] = best_matching_eofs_tcor\n\n                    debug_print('conventional eof end', debug)\n\n            # ================================================================\n            # Dictionary to JSON: individual JSON during model_realization loop\n            # ----------------------------------------------------------------\n            json_filename_tmp = '_'.join(['var', 'mode', mode, 'EOF'+str(eofn_mod), 'stat',\n                                          mip, exp, fq, realm, model, run, str(msyear)+'-'+str(meyear)])\n            mov_metrics_to_json(outdir, json_filename_tmp, result_dict, model=model, run=run)\n\n        except Exception as err:\n            if debug:\n                raise\n            else:\n                print('warning: faild for ', model, run, err)\n                pass\n\nif not parallel:\n    # ================================================================\n    # Dictionary to JSON: collective JSON at the end of model_realization loop\n    # ----------------------------------------------------------------\n    json_filename_all = '_'.join(['var', 'mode', mode, 'EOF'+str(eofn_mod), 'stat',\n                                  mip, exp, fq, realm, 'allModels', 'allRuns', str(msyear)+'-'+str(meyear)])\n    mov_metrics_to_json(outdir, json_filename_all, result_dict)\n\nif not debug:\n    sys.exit('done')\n",
+        "userId": "lee1043"
+    }
+}
