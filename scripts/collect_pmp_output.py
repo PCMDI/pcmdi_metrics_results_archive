@@ -5,7 +5,9 @@ import shutil
 
 #metrics_categories = ["mean_climate", "variability_modes", "enso_metric"]
 #metrics_categories = ["mean_climate"]
-metrics_categories = ["variability_modes"]
+#metrics_categories = ["variability_modes"]
+metrics_categories = ["enso_metric"]
+
 data_directory = "/p/user_pub/pmp/pmp_results/pmp_v1.1.2/metrics_results"
 target_directory = "../metrics_results"
 
@@ -54,3 +56,18 @@ for metrics in metrics_categories:
                                     target_path = os.path.join(target_directory, metrics, cmip, exp, version, mode, obs)
                                     copy_files(raw_json, target_path)
                                     print('Collected: cmip, exp, version, mode, obs:', cmip, exp, version, mode, obs)
+            elif metrics == "enso_metric":
+                for version in versions:
+                    metrics_collections = ["ENSO_perf", "ENSO_tel", "ENSO_proc"]
+                    collection_count = 0
+                    for mc in metrics_collections:
+                        raw_json_files = glob.glob(os.path.join(data_directory, metrics, cmip, exp, version, mc, "*_"+version+"_allModels_allRuns.json"))
+                        if len(raw_json_files) >= 1:
+                            # copy files 
+                            target_path = os.path.join(target_directory, metrics, cmip, exp, version, mc)
+                            copy_files(raw_json_files, target_path)
+                            collection_count += 1
+                            print('Collected: cmip, exp, version, mc:', cmip, exp, version, mc)
+                    if collection_count == len(metrics_collections):
+                        print('-- Collection completed for: cmip, exp, version:', cmip, exp, version)
+                        break
