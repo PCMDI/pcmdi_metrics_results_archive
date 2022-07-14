@@ -7,7 +7,8 @@ import shutil
 #metrics_categories = ["mean_climate"]
 #metrics_categories = ["variability_modes"]
 #metrics_categories = ["enso_metric"]
-metrics_categories = ["mjo"]
+# metrics_categories = ["mjo"]
+metrics_categories = ["precip"]
 
 data_directory = "/p/user_pub/pmp/pmp_results/pmp_v1.1.2/metrics_results"
 target_directory = "../metrics_results"
@@ -30,7 +31,7 @@ for metrics in metrics_categories:
         exps = [os.path.basename(x) for x in sorted(glob.glob(os.path.join(data_directory, metrics, cmip, "*")))]
         for exp in exps:
             versions = [os.path.basename(x) for x in sorted(glob.glob(os.path.join(data_directory, metrics, cmip, exp, "v????????")))]
-            versions.reverse()  # start from latest date
+            versions.reverse()  # start from latest date                                   
             if metrics == "mean_climate":
                 for version in versions:
                     raw_json_files = glob.glob(os.path.join(data_directory, metrics, cmip, exp, version, "*."+version+".json"))
@@ -80,4 +81,19 @@ for metrics in metrics_categories:
                         target_path = os.path.join(target_directory, metrics, cmip, exp, version)
                         copy_files(raw_json_files, target_path)
                         print('Collected: cmip, exp, version:', cmip, exp, version)
+                        break
+            elif metrics == "precip":
+                for version in versions:
+                    metrics_collections = ["variability_across_timescales"]
+                    collection_count = 0
+                    for mc in metrics_collections:                                                
+                        raw_json_files = glob.glob(os.path.join(data_directory, metrics, cmip, exp, version, mc, "*.json"))                        
+                        if len(raw_json_files) >= 1:
+                            # copy files 
+                            target_path = os.path.join(target_directory, metrics, cmip, exp, version, mc)
+                            copy_files(raw_json_files, target_path)
+                            collection_count += 1
+                            print('Collected: cmip, exp, version, mc:', cmip, exp, version, mc)
+                    if collection_count == len(metrics_collections):
+                        print('-- Collection completed for: cmip, exp, version:', cmip, exp, version)
                         break
