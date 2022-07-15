@@ -7,7 +7,7 @@ import shutil
 #metrics_categories = ["mean_climate"]
 #metrics_categories = ["variability_modes"]
 #metrics_categories = ["enso_metric"]
-# metrics_categories = ["mjo"]
+#metrics_categories = ["mjo"]
 metrics_categories = ["precip"]
 
 data_directory = "/p/user_pub/pmp/pmp_results/pmp_v1.1.2/metrics_results"
@@ -31,7 +31,7 @@ for metrics in metrics_categories:
         exps = [os.path.basename(x) for x in sorted(glob.glob(os.path.join(data_directory, metrics, cmip, "*")))]
         for exp in exps:
             versions = [os.path.basename(x) for x in sorted(glob.glob(os.path.join(data_directory, metrics, cmip, exp, "v????????")))]
-            versions.reverse()  # start from latest date                                   
+            versions.reverse()  # start from latest date
             if metrics == "mean_climate":
                 for version in versions:
                     raw_json_files = glob.glob(os.path.join(data_directory, metrics, cmip, exp, version, "*."+version+".json"))
