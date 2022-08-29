@@ -5,10 +5,10 @@ import shutil
 
 #metrics_categories = ["mean_climate", "variability_modes", "enso_metric"]
 #metrics_categories = ["mean_climate"]
-#metrics_categories = ["variability_modes"]
+metrics_categories = ["variability_modes"]
 #metrics_categories = ["enso_metric"]
 #metrics_categories = ["mjo"]
-metrics_categories = ["precip"]
+#metrics_categories = ["precip"]
 
 data_directory = "/p/user_pub/pmp/pmp_results/pmp_v1.1.2/metrics_results"
 target_directory = "../metrics_results"
