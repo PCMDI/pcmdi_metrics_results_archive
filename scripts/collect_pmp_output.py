@@ -4,8 +4,8 @@ import shutil
 
 
 #metrics_categories = ["mean_climate", "variability_modes", "enso_metric"]
-#metrics_categories = ["mean_climate"]
-metrics_categories = ["variability_modes"]
+metrics_categories = ["mean_climate"]
+#metrics_categories = ["variability_modes"]
 #metrics_categories = ["enso_metric"]
 #metrics_categories = ["mjo"]
 #metrics_categories = ["precip"]
