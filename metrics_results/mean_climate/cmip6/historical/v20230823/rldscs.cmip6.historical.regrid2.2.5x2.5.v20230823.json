@@ -1,0 +1,421 @@
+{
+    "provenance": {
+        "platform": {
+            "OS": "Linux",
+            "Version": "3.10.0-1160.71.1.el7.x86_64",
+            "Name": "gates.llnl.gov"
+        },
+        "userId": "lee1043",
+        "osAccess": false,
+        "commandLine": "/home/lee1043/.conda/envs/pcmdi_metrics_dev_20230822/bin/mean_climate_driver.py -p basic_param.py -v rldscs",
+        "date": "2023-09-18 23:19:34",
+        "conda": {
+            "Version": "23.3.1",
+            "buildVersion": "not installed",
+            "PythonVersion": "3.10.12.final.0",
+            "Platform": "linux-64"
+        },
+        "packages": {
+            "python": "3.10.10",
+            "cdat_info": "8.2.1",
+            "cdms": "3.1.5",
+            "cdp": "1.7.0",
+            "cdtime": "3.1.4",
+            "cdutil": "8.2.1",
+            "esmf": "8.4.2",
+            "esmpy": "8.4.2",
+            "genutil": "8.2.1",
+            "blas": "0.3.23",
+            "lapack": "3.9.0",
+            "numpy": "1.23.5",
+            "clapack": null,
+            "mesalib": null,
+            "uvcdat": null,
+            "vcs": null,
+            "vtk": null,
+            "xarray": "2023.8.0",
+            "matplotlib": "3.7.1",
+            "scipy": "1.11.2",
+            "xcdat": "0.5.0",
+            "PMP": "v3.0.2-11-g06b151f",
+            "PMPObs": "See 'References' key below, for detailed obs provenance information."
+        },
+        "openGL": {
+            "vendor": "VMware, Inc.",
+            "renderer": "llvmpipe (LLVM 7.0, 256 bits)",
+            "version": "2.1 Mesa 18.3.4",
+            "shading language version": "1.20",
+            "GLX": {
+                "server": {
+                    "vendor": "SGI",
+                    "version": "1.4"
+                },
+                "client": {
+                    "vendor": "Mesa Project and SGI",
+                    "version": "1.4"
+                },
+                "version": "1.4"
+            }
+        }
+    },
+    "Variable": {
+        "id": "rldscs"
+    },
+    "References": {
+        "default": {
+            "CMIP_CMOR_TABLE": "Amon",
+            "MD5sum": "6bc4282d67fe7abe9df467f6268a3c51",
+            "RefTrackingDate": "Wed Aug  4 12:22:57 2021",
+            "filename": "rldscs_mon_CERES-EBAF-4-1_PCMDI_gn.200301-201812.AC.v20210804.nc",
+            "period": "200301-201812",
+            "shape": "(12, 180, 360)",
+            "template": "rldscs/CERES-EBAF-4-1/v20210804/rldscs_mon_CERES-EBAF-4-1_PCMDI_gn.200301-201812.AC.v20210804.nc"
+        }
+    },
+    "RESULTS": {
+        "ACCESS-CM2": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "ACCESS-ESM1-5": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "AWI-CM-1-1-MR": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "AWI-ESM-1-1-LR": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "BCC-CSM2-MR": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "BCC-ESM1": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CAMS-CSM1-0": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CAS-ESM2-0": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CESM2": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CESM2-FV2": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CESM2-WACCM": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CESM2-WACCM-FV2": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CIESM": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CMCC-CM2-HR4": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CMCC-CM2-SR5": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CMCC-ESM2": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CNRM-CM6-1": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CNRM-CM6-1-HR": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CNRM-ESM2-1": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CanESM5": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CanESM5-1": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "CanESM5-CanOE": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "E3SM-1-0": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "E3SM-1-1": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "E3SM-1-1-ECA": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "E3SM-2-0": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "EC-Earth3": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "EC-Earth3-AerChem": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "EC-Earth3-CC": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "EC-Earth3-Veg": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "EC-Earth3-Veg-LR": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "FGOALS-f3-L": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "FGOALS-g3": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "FIO-ESM-2-0": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "GFDL-CM4": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "GFDL-ESM4": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "GISS-E2-1-G": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "GISS-E2-1-G-CC": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "GISS-E2-1-H": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "GISS-E2-2-G": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "GISS-E2-2-H": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "HadGEM3-GC31-LL": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "HadGEM3-GC31-MM": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "ICON-ESM-LR": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "INM-CM4-8": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "INM-CM5-0": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "IPSL-CM5A2-INCA": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "IPSL-CM6A-LR": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "IPSL-CM6A-LR-INCA": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "KACE-1-0-G": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "KIOST-ESM": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "MCM-UA-1-0": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "MIROC-ES2H": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "MIROC-ES2L": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "MIROC6": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "MPI-ESM-1-2-HAM": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "MPI-ESM1-2-HR": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "MPI-ESM1-2-LR": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "MRI-ESM2-0": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "NESM3": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "NorCPM1": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "NorESM2-LM": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "NorESM2-MM": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "SAM0-UNICON": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "TaiESM1": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "UKESM1-0-LL": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        },
+        "UKESM1-1-LL": {
+            "default": {
+                "source": "CERES-EBAF-4-1"
+            }
+        }
+    },
+    "json_version": 3.0,
+    "json_structure": [
+        "model",
+        "reference",
+        "rip",
+        "region",
+        "statistic",
+        "season"
+    ]
+}
