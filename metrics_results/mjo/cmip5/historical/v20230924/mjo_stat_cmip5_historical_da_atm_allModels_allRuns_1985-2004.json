@@ -1,0 +1,2153 @@
+{
+    "REF": {
+        "GPCP-1-3": {
+            "MJJASO": {
+                "analysis_time_window_end_year": 2010,
+                "analysis_time_window_start_year": 1997,
+                "east_power": 0.017083859661554807,
+                "east_west_power_ratio": 3.0534932772936827,
+                "west_power": 0.005594857466559176
+            },
+            "NDJFMA": {
+                "analysis_time_window_end_year": 2010,
+                "analysis_time_window_start_year": 1997,
+                "east_power": 0.0212067408339334,
+                "east_west_power_ratio": 2.494024187737836,
+                "west_power": 0.008503021317194452
+            }
+        }
+    },
+    "RESULTS": {
+        "ACCESS1-0": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007539948444298283,
+                    "east_power_normalized_by_observation": 0.4413492380334896,
+                    "east_west_power_ratio": 1.9370348843016347,
+                    "west_power": 0.003892520731249858
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006847832617389586,
+                    "east_power_normalized_by_observation": 0.32290829934754567,
+                    "east_west_power_ratio": 1.5898027031471658,
+                    "west_power": 0.004307347448732884
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00734201574155065,
+                    "east_west_power_ratio": 1.7428829954385308,
+                    "west_power": 0.004212569495924945
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006391892659417777,
+                    "east_west_power_ratio": 1.0498691430923452,
+                    "west_power": 0.0060882755736498045
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007866463492049553,
+                    "east_west_power_ratio": 1.3851362666375535,
+                    "west_power": 0.0056791982720556106
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008009666430168537,
+                    "east_west_power_ratio": 1.3397268145854928,
+                    "west_power": 0.005978581859352201
+                }
+            }
+        },
+        "ACCESS1-3": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007604136634873291,
+                    "east_west_power_ratio": 1.4700265173741534,
+                    "west_power": 0.005172788752447977
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.009843533206323965,
+                    "east_west_power_ratio": 2.038618565006406,
+                    "west_power": 0.004828531131468938
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007300222253638962,
+                    "east_west_power_ratio": 1.3841873452631785,
+                    "west_power": 0.005274013144695348
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007700022314096615,
+                    "east_west_power_ratio": 1.4179751823470195,
+                    "west_power": 0.0054302941334640345
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008025387261540602,
+                    "east_west_power_ratio": 1.5719012948513655,
+                    "west_power": 0.005105528755416834
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.010330191574910169,
+                    "east_west_power_ratio": 1.8596890992992388,
+                    "west_power": 0.005554794927175061
+                }
+            }
+        },
+        "BCC-CSM1-1": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.02458384827395539,
+                    "east_west_power_ratio": 2.9831258521336474,
+                    "west_power": 0.008240969202278901
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.01702407944192264,
+                    "east_west_power_ratio": 1.9805471311323584,
+                    "west_power": 0.008595644695508603
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.02440442058294316,
+                    "east_west_power_ratio": 2.847261410574137,
+                    "west_power": 0.008571190721129508
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.018318620391723783,
+                    "east_west_power_ratio": 2.023278200493812,
+                    "west_power": 0.009053930590095243
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.02082065543757909,
+                    "east_west_power_ratio": 2.4042260106216298,
+                    "west_power": 0.00866002420138353
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.021199686153271145,
+                    "east_west_power_ratio": 2.1524735488269986,
+                    "west_power": 0.009848988000258596
+                }
+            }
+        },
+        "BCC-CSM1-1-M": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006448587633455626,
+                    "east_west_power_ratio": 1.2114657371664823,
+                    "west_power": 0.00532296327962055
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0070498088265851635,
+                    "east_west_power_ratio": 1.0192066365541672,
+                    "west_power": 0.006916957340878237
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006996245856221445,
+                    "east_west_power_ratio": 1.3020267642364869,
+                    "west_power": 0.005373350263136924
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00785985330076658,
+                    "east_west_power_ratio": 0.9737217860653432,
+                    "west_power": 0.008071970262190612
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0073147124446662146,
+                    "east_west_power_ratio": 1.2695946560101854,
+                    "west_power": 0.005761454973080425
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007739001031405267,
+                    "east_west_power_ratio": 1.1970521750156935,
+                    "west_power": 0.006465049053775628
+                }
+            }
+        },
+        "BNU-ESM": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00401726793156421,
+                    "east_west_power_ratio": 1.1627703450852092,
+                    "west_power": 0.0034549108932338825
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007727418215094748,
+                    "east_west_power_ratio": 1.7175676569268519,
+                    "west_power": 0.004499047349855776
+                }
+            }
+        },
+        "CCSM4": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007177025118486367,
+                    "east_west_power_ratio": 1.4718091864483673,
+                    "west_power": 0.004876328524491204
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.009244360089786836,
+                    "east_west_power_ratio": 1.6903241547886987,
+                    "west_power": 0.005468986563078749
+                }
+            },
+            "r1i2p2": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007200095777559946,
+                    "east_west_power_ratio": 1.5119531871946565,
+                    "west_power": 0.0047621155459973705
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.009190084001710785,
+                    "east_west_power_ratio": 1.9584555483391721,
+                    "west_power": 0.00469251600298217
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006729727719793191,
+                    "east_west_power_ratio": 1.4062236866187696,
+                    "west_power": 0.004785673704568763
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00816874203819186,
+                    "east_west_power_ratio": 1.4260580553583715,
+                    "west_power": 0.005728197395258945
+                }
+            },
+            "r6i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007087352491205253,
+                    "east_west_power_ratio": 1.9061760738848357,
+                    "west_power": 0.0037180995965189335
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.011209509039314216,
+                    "east_west_power_ratio": 2.025308541054235,
+                    "west_power": 0.005534716717028865
+                }
+            }
+        },
+        "CESM1-BGC": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005495576739587643,
+                    "east_west_power_ratio": 1.363016659509403,
+                    "west_power": 0.004031921914707698
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008273069638463169,
+                    "east_west_power_ratio": 1.3168257771568888,
+                    "west_power": 0.006282584820237387
+                }
+            }
+        },
+        "CESM1-CAM5": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00658887486129536,
+                    "east_west_power_ratio": 1.8067733951842502,
+                    "west_power": 0.0036467632736109905
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006748293762663459,
+                    "east_west_power_ratio": 1.7532025013459407,
+                    "west_power": 0.0038491239645635725
+                }
+            }
+        },
+        "CESM1-FASTCHEM": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007402536222358029,
+                    "east_west_power_ratio": 1.6878411722133686,
+                    "west_power": 0.004385801427423786
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.009359948229957471,
+                    "east_west_power_ratio": 1.7383155335522387,
+                    "west_power": 0.005384493234568563
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006998992925572281,
+                    "east_west_power_ratio": 1.6764780247871387,
+                    "west_power": 0.004174819366606931
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007813573781663925,
+                    "east_west_power_ratio": 1.210708628172737,
+                    "west_power": 0.00645371941674899
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007680602914992628,
+                    "east_west_power_ratio": 1.6216133144961997,
+                    "west_power": 0.004736396060844398
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.010643292775575129,
+                    "east_west_power_ratio": 1.7522522217708245,
+                    "west_power": 0.006074064363187981
+                }
+            }
+        },
+        "CMCC-CESM": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008991786318697516,
+                    "east_west_power_ratio": 1.159235974310248,
+                    "west_power": 0.007756648791069204
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.01631655119858405,
+                    "east_west_power_ratio": 1.306579388989344,
+                    "west_power": 0.012487990654134773
+                }
+            }
+        },
+        "CMCC-CM": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.012143870454805186,
+                    "east_west_power_ratio": 1.616308376702624,
+                    "west_power": 0.007513337572115715
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.024532608207038963,
+                    "east_west_power_ratio": 2.880071182155713,
+                    "west_power": 0.008518056206054074
+                }
+            }
+        },
+        "CMCC-CMS": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.017836381722826398,
+                    "east_west_power_ratio": 1.7967154162632681,
+                    "west_power": 0.009927215830274191
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.027694954803125157,
+                    "east_west_power_ratio": 2.4348386109646025,
+                    "west_power": 0.011374451956860225
+                }
+            }
+        },
+        "CNRM-CM5": {
+            "r10i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.010921605618967841,
+                    "east_west_power_ratio": 2.10619882655583,
+                    "west_power": 0.005185458030487767
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.03273222922377851,
+                    "east_west_power_ratio": 4.31918156685502,
+                    "west_power": 0.007578340645589539
+                }
+            },
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.014272744629992647,
+                    "east_west_power_ratio": 2.2561934517173095,
+                    "west_power": 0.006326028745065676
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.03665020070804758,
+                    "east_west_power_ratio": 3.8072927475693517,
+                    "west_power": 0.009626315373685348
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.011967274313099149,
+                    "east_west_power_ratio": 2.040905067363091,
+                    "west_power": 0.00586370944169452
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.037260974159521974,
+                    "east_west_power_ratio": 4.982442354384207,
+                    "west_power": 0.0074784556467040455
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.012339150613367258,
+                    "east_west_power_ratio": 2.0946228662955884,
+                    "west_power": 0.005890869813328003
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.030294314726643807,
+                    "east_west_power_ratio": 4.308223199674418,
+                    "west_power": 0.007031742164364468
+                }
+            },
+            "r4i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.013661639993959711,
+                    "east_west_power_ratio": 2.3423312953462685,
+                    "west_power": 0.005832496889360862
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.03309714714790317,
+                    "east_west_power_ratio": 4.254962678057276,
+                    "west_power": 0.007778481188233269
+                }
+            },
+            "r5i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.015174302479853859,
+                    "east_west_power_ratio": 2.46176578328607,
+                    "west_power": 0.006163991141187507
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.035256835271910196,
+                    "east_west_power_ratio": 4.7787267694050675,
+                    "west_power": 0.007377872176671765
+                }
+            },
+            "r6i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.014557996171094252,
+                    "east_west_power_ratio": 2.877116967966392,
+                    "west_power": 0.005059925033699327
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.039756608082595575,
+                    "east_west_power_ratio": 5.224189019963713,
+                    "west_power": 0.007610101382371445
+                }
+            },
+            "r7i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.013520394135268418,
+                    "east_west_power_ratio": 2.400878178680905,
+                    "west_power": 0.005631436969741138
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.03629337712877869,
+                    "east_west_power_ratio": 4.42837394097263,
+                    "west_power": 0.00819564418284138
+                }
+            },
+            "r8i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.013201385227602343,
+                    "east_west_power_ratio": 2.176854649944523,
+                    "west_power": 0.006064431186500568
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.030854050171942166,
+                    "east_west_power_ratio": 3.7853215597973184,
+                    "west_power": 0.008150972033560662
+                }
+            },
+            "r9i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.012540633561217538,
+                    "east_west_power_ratio": 2.1610439254336913,
+                    "west_power": 0.00580304426653466
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.037678414191490775,
+                    "east_west_power_ratio": 5.078798235236842,
+                    "west_power": 0.007418765709194135
+                }
+            }
+        },
+        "CSIRO-Mk3-6-0": {
+            "r10i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004202805378781231,
+                    "east_west_power_ratio": 1.550279721196166,
+                    "west_power": 0.002710998100096689
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006995244054231595,
+                    "east_west_power_ratio": 1.4664092196663485,
+                    "west_power": 0.004770321926796955
+                }
+            },
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004089312662194959,
+                    "east_west_power_ratio": 1.6649805632768986,
+                    "west_power": 0.0024560723124278754
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007057457205500623,
+                    "east_west_power_ratio": 1.7794578795733338,
+                    "west_power": 0.003966071513416666
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.003911129231044664,
+                    "east_west_power_ratio": 1.5562510560989429,
+                    "west_power": 0.0025131737040222147
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007724911205972781,
+                    "east_west_power_ratio": 1.5321706751538942,
+                    "west_power": 0.0050418085473388115
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004795185641534459,
+                    "east_west_power_ratio": 1.6737684953609522,
+                    "west_power": 0.0028649037515193314
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007414945366486473,
+                    "east_west_power_ratio": 2.3635534572242407,
+                    "west_power": 0.003137202310285206
+                }
+            },
+            "r4i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004810078294019087,
+                    "east_west_power_ratio": 1.8385855408049083,
+                    "west_power": 0.002616184119403712
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006071332697607983,
+                    "east_west_power_ratio": 1.5276934254548868,
+                    "west_power": 0.003974182644531693
+                }
+            },
+            "r5i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004850614015162429,
+                    "east_west_power_ratio": 1.797000552774704,
+                    "west_power": 0.0026992835409386583
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008501685533402222,
+                    "east_west_power_ratio": 2.063544790225261,
+                    "west_power": 0.004119942331115652
+                }
+            },
+            "r6i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005196876866650825,
+                    "east_west_power_ratio": 2.0354436034233268,
+                    "west_power": 0.0025531912836643657
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007744223323470155,
+                    "east_west_power_ratio": 1.858926690804703,
+                    "west_power": 0.004165964888113899
+                }
+            },
+            "r7i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0036172902094916432,
+                    "east_west_power_ratio": 1.610918569765507,
+                    "west_power": 0.002245482966912594
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007109047977825511,
+                    "east_west_power_ratio": 1.6427980025850044,
+                    "west_power": 0.004327402374874547
+                }
+            },
+            "r8i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004258932057130014,
+                    "east_west_power_ratio": 1.4281009270229954,
+                    "west_power": 0.002982234642202873
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00816999085366239,
+                    "east_west_power_ratio": 1.59378427393335,
+                    "west_power": 0.0051261585317939
+                }
+            },
+            "r9i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0037639212645061725,
+                    "east_west_power_ratio": 1.4384546616871003,
+                    "west_power": 0.0026166422653124393
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007456577405599526,
+                    "east_west_power_ratio": 1.413722530180346,
+                    "west_power": 0.005274427793584293
+                }
+            }
+        },
+        "CanCM4": {
+            "r10i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.002372464973335657,
+                    "east_west_power_ratio": 0.8986199279023972,
+                    "west_power": 0.002640120588994261
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0040627131091441485,
+                    "east_west_power_ratio": 1.1163752179670825,
+                    "west_power": 0.003639200372561425
+                }
+            },
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0024142259250842725,
+                    "east_west_power_ratio": 0.9295597231680399,
+                    "west_power": 0.0025971713972893855
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0036971830787535247,
+                    "east_west_power_ratio": 1.0889114227811725,
+                    "west_power": 0.0033953019514760935
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0028433657036289993,
+                    "east_west_power_ratio": 1.0400578081072147,
+                    "west_power": 0.00273385352378018
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0032862481705184716,
+                    "east_west_power_ratio": 0.9819951036062115,
+                    "west_power": 0.003346501584835076
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.002803208442322265,
+                    "east_west_power_ratio": 1.2932764995727009,
+                    "west_power": 0.0021675244568724835
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.003727346517381991,
+                    "east_west_power_ratio": 1.0244830379059653,
+                    "west_power": 0.003638270600361189
+                }
+            },
+            "r4i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00298735366184349,
+                    "east_west_power_ratio": 1.3752600783613926,
+                    "west_power": 0.002172209976023509
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.003223344719475857,
+                    "east_west_power_ratio": 0.8432199508495182,
+                    "west_power": 0.0038226618288958133
+                }
+            },
+            "r5i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0028826151426335476,
+                    "east_west_power_ratio": 1.2770552706570768,
+                    "west_power": 0.00225723600917474
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00385068613049842,
+                    "east_west_power_ratio": 0.9326616178478981,
+                    "west_power": 0.004128706549953044
+                }
+            },
+            "r6i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0030439491936854585,
+                    "east_west_power_ratio": 1.2073340282780458,
+                    "west_power": 0.0025212154402927548
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.003617175422026508,
+                    "east_west_power_ratio": 0.9429588250809754,
+                    "west_power": 0.0038359844839629003
+                }
+            },
+            "r7i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.002815967175035046,
+                    "east_west_power_ratio": 1.2163946590340944,
+                    "west_power": 0.0023150111307387094
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004412325719464487,
+                    "east_west_power_ratio": 1.105217614576661,
+                    "west_power": 0.00399226872723574
+                }
+            },
+            "r8i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.002951255513787372,
+                    "east_west_power_ratio": 1.2363790805568686,
+                    "west_power": 0.0023870150831556596
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004171910502476263,
+                    "east_west_power_ratio": 1.0528444406088888,
+                    "west_power": 0.003962513683468312
+                }
+            },
+            "r9i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0026920007751640705,
+                    "east_west_power_ratio": 1.241895162931137,
+                    "west_power": 0.00216765541530122
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.003374816075891847,
+                    "east_west_power_ratio": 0.7524360807429633,
+                    "west_power": 0.004485186399567014
+                }
+            }
+        },
+        "CanESM2": {
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0026598254025509056,
+                    "east_west_power_ratio": 1.0711704883986055,
+                    "west_power": 0.0024831018323958226
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0036296338475792517,
+                    "east_west_power_ratio": 0.845136605694374,
+                    "west_power": 0.00429473037036078
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.002504870841715436,
+                    "east_west_power_ratio": 1.0781671671699964,
+                    "west_power": 0.002323267595219294
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0038611663975083254,
+                    "east_west_power_ratio": 0.994244255981569,
+                    "west_power": 0.003883518938408534
+                }
+            },
+            "r4i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0030569212405572193,
+                    "east_west_power_ratio": 1.3122726655926233,
+                    "west_power": 0.0023294863336780023
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0032656816500172027,
+                    "east_west_power_ratio": 0.9418660164101603,
+                    "west_power": 0.0034672465012211204
+                }
+            },
+            "r5i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0031089929526419984,
+                    "east_west_power_ratio": 1.2165599229284,
+                    "west_power": 0.0025555608844637047
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0035336467474143137,
+                    "east_west_power_ratio": 0.9294573671382704,
+                    "west_power": 0.0038018384407389736
+                }
+            }
+        },
+        "EC-EARTH": {
+            "r12i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004976669134924439,
+                    "east_west_power_ratio": 1.41343652940593,
+                    "west_power": 0.003520971073965481
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007849664605128993,
+                    "east_west_power_ratio": 1.8551439652962725,
+                    "west_power": 0.0042312967359788576
+                }
+            },
+            "r13i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005782666129003006,
+                    "east_west_power_ratio": 1.572155996415973,
+                    "west_power": 0.0036781757931055744
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008848163429812842,
+                    "east_west_power_ratio": 1.9891197382697516,
+                    "west_power": 0.004448280945374095
+                }
+            },
+            "r14i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005603922609145895,
+                    "east_west_power_ratio": 1.3133031786393965,
+                    "west_power": 0.004267044122250317
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006176180775511703,
+                    "east_west_power_ratio": 1.5616926977829466,
+                    "west_power": 0.00395479903586647
+                }
+            },
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005341542759091007,
+                    "east_west_power_ratio": 1.8159758142077624,
+                    "west_power": 0.00294141734559461
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006048579448710823,
+                    "east_west_power_ratio": 1.81541857007819,
+                    "west_power": 0.0033317822943996385
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005128952595076589,
+                    "east_west_power_ratio": 1.3780391605069018,
+                    "west_power": 0.0037219207857561464
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007175228592114284,
+                    "east_west_power_ratio": 1.54203604943006,
+                    "west_power": 0.004653087451986784
+                }
+            },
+            "r9i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005840759636363376,
+                    "east_west_power_ratio": 1.818307329824255,
+                    "west_power": 0.003212196057598197
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0067800721651645945,
+                    "east_west_power_ratio": 1.6594938579366594,
+                    "west_power": 0.004085626549768996
+                }
+            }
+        },
+        "FGOALS-g2": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00929921163092443,
+                    "east_west_power_ratio": 2.2294414789691386,
+                    "west_power": 0.004171094742179217
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.009853428949347027,
+                    "east_west_power_ratio": 1.69136507922833,
+                    "west_power": 0.005825725664055075
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007250941871768211,
+                    "east_west_power_ratio": 1.8495171781887303,
+                    "west_power": 0.003920451216824709
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.010603623999061354,
+                    "east_west_power_ratio": 1.7576845946351243,
+                    "west_power": 0.006032722839709788
+                }
+            }
+        },
+        "GFDL-CM3": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004788403098080341,
+                    "east_west_power_ratio": 1.3788987978141067,
+                    "west_power": 0.003472628379741237
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.011201387182863147,
+                    "east_west_power_ratio": 2.210875364877638,
+                    "west_power": 0.005066494186334694
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005419047809847003,
+                    "east_west_power_ratio": 1.7741975517221265,
+                    "west_power": 0.003054365509966463
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008563095687492686,
+                    "east_west_power_ratio": 1.8750350327683396,
+                    "west_power": 0.004566899038067549
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005709601450527293,
+                    "east_west_power_ratio": 1.581623560507715,
+                    "west_power": 0.00360996231536565
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.01019034318151723,
+                    "east_west_power_ratio": 2.0763493898984255,
+                    "west_power": 0.004907817167521955
+                }
+            },
+            "r4i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004500804158620568,
+                    "east_west_power_ratio": 1.232062569404032,
+                    "west_power": 0.0036530646010921974
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.009878856980683016,
+                    "east_west_power_ratio": 1.810296147420528,
+                    "west_power": 0.005457039167187808
+                }
+            },
+            "r5i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0050491533159214156,
+                    "east_west_power_ratio": 1.7577622133510242,
+                    "west_power": 0.0028724893945100993
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.01231319085651268,
+                    "east_west_power_ratio": 2.4856659253938314,
+                    "west_power": 0.004953678903797889
+                }
+            }
+        },
+        "GFDL-ESM2G": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005868031404122582,
+                    "east_west_power_ratio": 1.7261239613346944,
+                    "west_power": 0.0033995422898742637
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008478915793713468,
+                    "east_west_power_ratio": 1.3363268103159378,
+                    "west_power": 0.00634494176743252
+                }
+            }
+        },
+        "GFDL-ESM2M": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0075290782469812564,
+                    "east_west_power_ratio": 1.9873973902172575,
+                    "west_power": 0.0037884110566121835
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.010329797093979584,
+                    "east_west_power_ratio": 1.6370026293133522,
+                    "west_power": 0.006310189677772517
+                }
+            }
+        },
+        "GISS-E2-H": {
+            "r6i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0034859585617311104,
+                    "east_west_power_ratio": 1.0348988958651855,
+                    "west_power": 0.0033684049482116947
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005422684009356012,
+                    "east_west_power_ratio": 1.3918007359211992,
+                    "west_power": 0.003896164062427276
+                }
+            },
+            "r6i1p2": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.003855006373089571,
+                    "east_west_power_ratio": 0.9720271361489757,
+                    "west_power": 0.003965945218733833
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005438325374003204,
+                    "east_west_power_ratio": 1.4378729337166012,
+                    "west_power": 0.0037822016441649464
+                }
+            },
+            "r6i1p3": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0034534058850997622,
+                    "east_west_power_ratio": 1.1179991686072328,
+                    "west_power": 0.0030889163266569365
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005061476626965325,
+                    "east_west_power_ratio": 1.1851645714559749,
+                    "west_power": 0.0042706951834944745
+                }
+            }
+        },
+        "GISS-E2-R": {
+            "r6i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004238352225264008,
+                    "east_west_power_ratio": 0.9886793691251412,
+                    "west_power": 0.0042868824389593815
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005421063809270075,
+                    "east_west_power_ratio": 1.4764214550697425,
+                    "west_power": 0.003671759029683023
+                }
+            },
+            "r6i1p2": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0039581379062013445,
+                    "east_west_power_ratio": 0.9014848803675085,
+                    "west_power": 0.004390686957043284
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005458379568349023,
+                    "east_west_power_ratio": 1.5370944697887818,
+                    "west_power": 0.0035511022098069747
+                }
+            },
+            "r6i1p3": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0036848686230886905,
+                    "east_west_power_ratio": 1.0128857663512705,
+                    "west_power": 0.003637990329711842
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004374610120593382,
+                    "east_west_power_ratio": 1.1904820325617262,
+                    "west_power": 0.0036746544684760365
+                }
+            }
+        },
+        "HadGEM2-AO": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006169072411690455,
+                    "east_west_power_ratio": 1.5108529754636295,
+                    "west_power": 0.004083171898177171
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006162378391501237,
+                    "east_west_power_ratio": 1.068759975683196,
+                    "west_power": 0.005765914266729522
+                }
+            }
+        },
+        "HadGEM2-CC": {
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005486977383470346,
+                    "east_west_power_ratio": 1.3078844033645602,
+                    "west_power": 0.0041953076046743745
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006841614002775096,
+                    "east_west_power_ratio": 1.29315028398591,
+                    "west_power": 0.005290656536599146
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005421253477150018,
+                    "east_west_power_ratio": 1.324769086466722,
+                    "west_power": 0.004092225228178435
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005639210256702248,
+                    "east_west_power_ratio": 1.0592536610647065,
+                    "west_power": 0.005323758098729636
+                }
+            }
+        },
+        "HadGEM2-ES": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005723755334400687,
+                    "east_west_power_ratio": 1.422628922523194,
+                    "west_power": 0.004023364943437926
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005942375706481511,
+                    "east_west_power_ratio": 1.221192009506192,
+                    "west_power": 0.004866045355868651
+                }
+            }
+        },
+        "INMCM4": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0020016319388948024,
+                    "east_west_power_ratio": 0.7403655853025971,
+                    "west_power": 0.0027035723683411206
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.002830175640806822,
+                    "east_west_power_ratio": 0.8521360097977265,
+                    "west_power": 0.003321272200993627
+                }
+            }
+        },
+        "IPSL-CM5A-LR": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0027718875896620004,
+                    "east_west_power_ratio": 1.069148888169658,
+                    "west_power": 0.0025926113942908043
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005326462423827994,
+                    "east_west_power_ratio": 1.3812374709206892,
+                    "west_power": 0.003856297368096699
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.003099683103009339,
+                    "east_west_power_ratio": 1.1912465666328922,
+                    "west_power": 0.002602049978427826
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005659980960617876,
+                    "east_west_power_ratio": 1.7092808829897395,
+                    "west_power": 0.0033113229176926634
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.002842764828052374,
+                    "east_west_power_ratio": 1.205243503209778,
+                    "west_power": 0.00235866430350513
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005779033149788716,
+                    "east_west_power_ratio": 1.6861398642074605,
+                    "west_power": 0.0034273747228585013
+                }
+            },
+            "r4i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0031136593045279766,
+                    "east_west_power_ratio": 1.336649984440566,
+                    "west_power": 0.0023294499987078893
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006020369040149719,
+                    "east_west_power_ratio": 1.5489595810544963,
+                    "west_power": 0.003886717971072679
+                }
+            },
+            "r5i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0028896497168151205,
+                    "east_west_power_ratio": 1.2531381143165683,
+                    "west_power": 0.0023059307540023765
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005812822130626757,
+                    "east_west_power_ratio": 1.789047421133472,
+                    "west_power": 0.003249115737213928
+                }
+            },
+            "r6i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00317509125201155,
+                    "east_west_power_ratio": 1.326590461145672,
+                    "west_power": 0.002393422344729867
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0055881853621628725,
+                    "east_west_power_ratio": 1.413354053384187,
+                    "west_power": 0.0039538467723514254
+                }
+            }
+        },
+        "IPSL-CM5A-MR": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.002589404064990725,
+                    "east_west_power_ratio": 1.3026213634675907,
+                    "west_power": 0.0019878409318404744
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00570780931205056,
+                    "east_west_power_ratio": 1.739660119154306,
+                    "west_power": 0.0032809910678559874
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0026773589517168103,
+                    "east_west_power_ratio": 1.2107259516106843,
+                    "west_power": 0.002211366616991233
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004621247077442664,
+                    "east_west_power_ratio": 1.3719916365979081,
+                    "west_power": 0.003368276419601106
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0027136495035472007,
+                    "east_west_power_ratio": 1.5018330024346145,
+                    "west_power": 0.0018068916445091539
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004594138367899463,
+                    "east_west_power_ratio": 1.28327318839151,
+                    "west_power": 0.003580015860580616
+                }
+            }
+        },
+        "IPSL-CM5B-LR": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.007895299596758129,
+                    "east_west_power_ratio": 1.23816298512267,
+                    "west_power": 0.006376623830323847
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.019200220069279236,
+                    "east_west_power_ratio": 2.51017114570684,
+                    "west_power": 0.007648968518388669
+                }
+            }
+        },
+        "MIROC-ESM": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004770429258265222,
+                    "east_west_power_ratio": 1.5002695272955804,
+                    "west_power": 0.003179714825551716
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0036603626021464316,
+                    "east_west_power_ratio": 0.8656098311869795,
+                    "west_power": 0.004228651836274905
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0037617206372007363,
+                    "east_west_power_ratio": 1.1382062743937822,
+                    "west_power": 0.0033049551050878356
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0029855542847736483,
+                    "east_west_power_ratio": 0.670625360325569,
+                    "west_power": 0.004451895889120938
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0046084335029046375,
+                    "east_west_power_ratio": 1.4770455214340166,
+                    "west_power": 0.003120034850673022
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0032252655814108745,
+                    "east_west_power_ratio": 0.6667498554946749,
+                    "west_power": 0.00483729475879374
+                }
+            }
+        },
+        "MIROC-ESM-CHEM": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004799594794255096,
+                    "east_west_power_ratio": 1.5197058228195075,
+                    "west_power": 0.003158239392246597
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.003155465724716157,
+                    "east_west_power_ratio": 0.6812273930372764,
+                    "west_power": 0.004632030004911285
+                }
+            }
+        },
+        "MIROC4h": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005189094560283687,
+                    "east_west_power_ratio": 1.8085204743163266,
+                    "west_power": 0.002869248445885201
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.004965927584163875,
+                    "east_west_power_ratio": 1.790412508339791,
+                    "west_power": 0.0027736220346051238
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005536649974529521,
+                    "east_west_power_ratio": 2.134523700293582,
+                    "west_power": 0.002593857343335195
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005255690904706529,
+                    "east_west_power_ratio": 1.72447886586876,
+                    "west_power": 0.0030476980661974136
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006146094798024554,
+                    "east_west_power_ratio": 2.2428229610499075,
+                    "west_power": 0.00274033880728038
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0034163746444073177,
+                    "east_west_power_ratio": 1.290832285726161,
+                    "west_power": 0.0026466448679546527
+                }
+            }
+        },
+        "MIROC5": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008371591303975984,
+                    "east_west_power_ratio": 1.983666223025997,
+                    "west_power": 0.004220262061631258
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.012727449762760279,
+                    "east_west_power_ratio": 1.9656090818217375,
+                    "west_power": 0.006475066624623247
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.0074581474493059866,
+                    "east_west_power_ratio": 1.4765229835127223,
+                    "west_power": 0.005051155676264977
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.013636677746966317,
+                    "east_west_power_ratio": 2.1409577531946336,
+                    "west_power": 0.006369428694526235
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.006347862853501841,
+                    "east_west_power_ratio": 1.614592623132522,
+                    "west_power": 0.003931556952853007
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.012529519964818691,
+                    "east_west_power_ratio": 2.204960586656664,
+                    "west_power": 0.005682423550171907
+                }
+            },
+            "r4i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008109040494862604,
+                    "east_west_power_ratio": 2.063960199249432,
+                    "west_power": 0.003928874451072987
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.010942525165380074,
+                    "east_west_power_ratio": 2.215710408018953,
+                    "west_power": 0.004938608008419155
+                }
+            },
+            "r5i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008162023866312552,
+                    "east_west_power_ratio": 1.8226270418273822,
+                    "west_power": 0.004478164582771269
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.011985520565847911,
+                    "east_west_power_ratio": 2.0035920275317594,
+                    "west_power": 0.005982016498944132
+                }
+            }
+        },
+        "MPI-ESM-LR": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.010077541164508834,
+                    "east_west_power_ratio": 1.3298273281079926,
+                    "west_power": 0.007578082470937503
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.01461947736574004,
+                    "east_west_power_ratio": 1.5533575130621675,
+                    "west_power": 0.009411534204331587
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00819062434524496,
+                    "east_west_power_ratio": 1.4204557001237075,
+                    "west_power": 0.005766194851787098
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.011858772925900521,
+                    "east_west_power_ratio": 1.3809151799143369,
+                    "west_power": 0.008587618630302959
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.010377128271820421,
+                    "east_west_power_ratio": 1.6226862470076495,
+                    "west_power": 0.006395030641910347
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.014936118095561432,
+                    "east_west_power_ratio": 1.7209193259942757,
+                    "west_power": 0.008679150655090681
+                }
+            }
+        },
+        "MPI-ESM-MR": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008120513015527176,
+                    "east_west_power_ratio": 1.1762861211274127,
+                    "west_power": 0.006903518514478485
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.016854363277083468,
+                    "east_west_power_ratio": 1.8254593435404807,
+                    "west_power": 0.00923294366249451
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.008178605973361295,
+                    "east_west_power_ratio": 1.0322383780728583,
+                    "west_power": 0.007923175641493176
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.017371135425113236,
+                    "east_west_power_ratio": 1.8427163102415778,
+                    "west_power": 0.009426917930104988
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.009791613487890193,
+                    "east_west_power_ratio": 1.1619054485673712,
+                    "west_power": 0.008427203349431958
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.01645723017580303,
+                    "east_west_power_ratio": 1.619424013020768,
+                    "west_power": 0.01016239727426592
+                }
+            }
+        },
+        "MPI-ESM-P": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.009110801062560604,
+                    "east_west_power_ratio": 1.579168930710295,
+                    "west_power": 0.005769364433013923
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.011267285553649926,
+                    "east_west_power_ratio": 1.3009052882199916,
+                    "west_power": 0.008661111347365478
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.009718088495847066,
+                    "east_west_power_ratio": 1.558047541902579,
+                    "west_power": 0.0062373504238388095
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.013171096317793,
+                    "east_west_power_ratio": 1.380855135984624,
+                    "west_power": 0.009538362116748257
+                }
+            }
+        },
+        "MRI-CGCM3": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.010410246313689146,
+                    "east_west_power_ratio": 1.9136265053794217,
+                    "west_power": 0.0054400617280460735
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.023648732153050144,
+                    "east_west_power_ratio": 2.830330425253472,
+                    "west_power": 0.008355466888970134
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.010377647216222374,
+                    "east_west_power_ratio": 2.074504960416274,
+                    "west_power": 0.005002469222411488
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.018257713531187863,
+                    "east_west_power_ratio": 1.9909017128357793,
+                    "west_power": 0.009170575028127398
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.011029552091438933,
+                    "east_west_power_ratio": 2.0151206410745233,
+                    "west_power": 0.005473395421902702
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.017220162994497124,
+                    "east_west_power_ratio": 2.3038375640865536,
+                    "west_power": 0.007474556046369845
+                }
+            },
+            "r4i1p2": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.010205078566194271,
+                    "east_west_power_ratio": 1.9725816959945843,
+                    "west_power": 0.005173463074769548
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.018432245153838553,
+                    "east_west_power_ratio": 2.4917725722775934,
+                    "west_power": 0.007397242171660411
+                }
+            },
+            "r5i1p2": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.012569346616854412,
+                    "east_west_power_ratio": 2.3787138599339657,
+                    "west_power": 0.0052840935719789955
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.02009026614774111,
+                    "east_west_power_ratio": 2.7041394383925024,
+                    "west_power": 0.00742944903746677
+                }
+            }
+        },
+        "MRI-ESM1": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.012373712908708671,
+                    "east_west_power_ratio": 2.4916885387689174,
+                    "west_power": 0.004965995033561547
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.023113910082502173,
+                    "east_west_power_ratio": 2.642920703833073,
+                    "west_power": 0.008745593482611747
+                }
+            }
+        },
+        "NorESM1-M": {
+            "r1i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005011034717031842,
+                    "east_west_power_ratio": 1.0916306714457578,
+                    "west_power": 0.0045904121678765385
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.012732549415803776,
+                    "east_west_power_ratio": 2.2555204757526055,
+                    "west_power": 0.005645060442891911
+                }
+            },
+            "r2i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.00749235417319146,
+                    "east_west_power_ratio": 1.3542138678748339,
+                    "west_power": 0.005532622542810909
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.013285545458832738,
+                    "east_west_power_ratio": 2.2623413413784577,
+                    "west_power": 0.0058724761006832766
+                }
+            },
+            "r3i1p1": {
+                "MJJASO": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.005325462601678109,
+                    "east_west_power_ratio": 1.2113633359771727,
+                    "west_power": 0.004396255395481496
+                },
+                "NDJFMA": {
+                    "analysis_time_window_end_year": 2004,
+                    "analysis_time_window_start_year": 1985,
+                    "east_power": 0.012162277208047072,
+                    "east_west_power_ratio": 2.204781545682285,
+                    "west_power": 0.00551631849053933
+                }
+            }
+        }
+    },
+    "json_structure": [
+        "model",
+        "realization",
+        "metric"
+    ],
+    "json_version": 3.0,
+    "provenance": {
+        "commandLine": "/home/lee1043/.conda/envs/pcmdi_metrics_dev_20230822/bin/mjo_metrics_driver.py -p ../param/myParam_mjo.py --case_id v20230924 --mip cmip5 --modnames ACCESS1-0 --realization r1i1p1 --parallel",
+        "conda": {
+            "Platform": "linux-64",
+            "PythonVersion": "3.10.12.final.0",
+            "Version": "23.3.1",
+            "buildVersion": "not installed"
+        },
+        "date": "2023-09-24 13:35:17",
+        "openGL": {
+            "GLX": {
+                "client": {
+                    "vendor": "Mesa Project and SGI",
+                    "version": "1.4"
+                },
+                "server": {
+                    "vendor": "SGI",
+                    "version": "1.4"
+                },
+                "version": "1.4"
+            },
+            "renderer": "llvmpipe (LLVM 7.0, 256 bits)",
+            "shading language version": "1.20",
+            "vendor": "VMware, Inc.",
+            "version": "2.1 Mesa 18.3.4"
+        },
+        "osAccess": false,
+        "packages": {
+            "PMP": "v3.0.2-11-g06b151f",
+            "PMPObs": "See 'References' key below, for detailed obs provenance information.",
+            "blas": "0.3.23",
+            "cdat_info": "8.2.1",
+            "cdms": "3.1.5",
+            "cdp": "1.7.0",
+            "cdtime": "3.1.4",
+            "cdutil": "8.2.1",
+            "clapack": null,
+            "esmf": "8.4.2",
+            "esmpy": "8.4.2",
+            "genutil": "8.2.1",
+            "lapack": "3.9.0",
+            "matplotlib": "3.7.1",
+            "mesalib": null,
+            "numpy": "1.23.5",
+            "python": "3.10.10",
+            "scipy": "1.11.2",
+            "uvcdat": null,
+            "vcs": null,
+            "vtk": null,
+            "xarray": "2023.8.0",
+            "xcdat": "0.5.0"
+        },
+        "platform": {
+            "Name": "gates.llnl.gov",
+            "OS": "Linux",
+            "Version": "3.10.0-1160.71.1.el7.x86_64"
+        },
+        "userId": "lee1043"
+    }
+}
