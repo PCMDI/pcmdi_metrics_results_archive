@@ -3,7 +3,7 @@
     "REFERENCE": "MC for ENSO Teleconnection...",
     "RESULTS": {
         "model": {
-            "E3SM-1-0": {
+            "my_model": {
                 "r1i1p1f1": {
                     "metadata": {
                         "description_of_the_collection": "Describe which science question this collection is about",
@@ -19,9 +19,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -80,7 +80,7 @@
                                     "units": "C"
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
                                     "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
                                     "name": "EnsoAmpl",
                                     "units": "%"
@@ -120,9 +120,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -296,7 +296,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoPrMapDjf",
                                     "units": ""
@@ -336,9 +336,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -512,7 +512,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoPrMapDjf",
                                     "units": "mm/day/C"
@@ -552,9 +552,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -728,7 +728,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoPrMapDjf",
                                     "units": "mm/day/C / mm/day/C"
@@ -768,9 +768,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -944,7 +944,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoPrMapJja",
                                     "units": ""
@@ -984,9 +984,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -1160,7 +1160,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoPrMapJja",
                                     "units": "mm/day/C"
@@ -1200,9 +1200,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -1376,7 +1376,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoPrMapJja",
                                     "units": "mm/day/C / mm/day/C"
@@ -1393,9 +1393,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -1454,7 +1454,7 @@
                                     "units": "C/C"
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
                                     "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
                                     "name": "EnsoSeasonality",
                                     "units": "%"
@@ -1470,9 +1470,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -1526,7 +1526,7 @@
                                     "units": "C/C"
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoSstLonRmse",
                                     "units": "C/C"
@@ -1542,9 +1542,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -1582,7 +1582,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoSstMapDjf",
                                     "units": ""
@@ -1598,9 +1598,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -1638,7 +1638,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoSstMapDjf",
                                     "units": "C/C"
@@ -1654,9 +1654,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -1694,7 +1694,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoSstMapDjf",
                                     "units": "C/C / C/C"
@@ -1710,9 +1710,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -1750,7 +1750,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoSstMapJja",
                                     "units": ""
@@ -1766,9 +1766,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -1806,7 +1806,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoSstMapJja",
                                     "units": "C/C"
@@ -1822,9 +1822,9 @@
                                             "2012-12-16 12:0:0.0"
                                         ]
                                     },
-                                    "E3SM-1-0_r1i1p1f1": {
+                                    "my_model_r1i1p1f1": {
                                         "keyerror": null,
-                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "name": "my_model_r1i1p1f1",
                                         "nyears": 165,
                                         "time_period": [
                                             "1850-1-16 12:0:0.0",
@@ -1862,7 +1862,7 @@
                                     "units": ""
                                 },
                                 "metric": {
-                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "datasets": "my_model_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
                                     "method": "The metric is the statistical value between the model and the observations",
                                     "name": "EnsoSstMapJja",
                                     "units": "C/C / C/C"
@@ -1878,7 +1878,7 @@
                                     "value": 0.7407960057502115,
                                     "value_error": 0.062166219832622445
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": 0.9775169698131866,
                                     "value_error": 0.0760995928899537
                                 },
@@ -1948,7 +1948,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -2150,7 +2150,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -2352,7 +2352,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -2554,7 +2554,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -2756,7 +2756,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -2958,7 +2958,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -3148,7 +3148,7 @@
                                     "value": 1.6436435961094338,
                                     "value_error": 0.27635126775510105
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": 1.5027161635138973,
                                     "value_error": 0.23432871282039192
                                 },
@@ -3206,7 +3206,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -3264,7 +3264,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -3306,7 +3306,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -3348,7 +3348,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -3390,7 +3390,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -3432,7 +3432,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -3474,7 +3474,7 @@
                                     "value": null,
                                     "value_error": null
                                 },
-                                "E3SM-1-0_r1i1p1f1": {
+                                "my_model_r1i1p1f1": {
                                     "value": null,
                                     "value_error": null
                                 },
@@ -3625,7 +3625,7 @@
     ],
     "json_version": 3.0,
     "provenance": {
-        "commandLine": "/export/lee1043/anaconda3/envs/pmp_nightly_20210602/bin/enso_driver.py -p ../param/my_Param_ENSO_PCMDIobs.py --mip cmip6 --metricsCollection ENSO_tel --case_id v20200608 --modnames E3SM-1-0 --realization r1i1p1f1",
+        "commandLine": "/export/lee1043/anaconda3/envs/pmp_nightly_20210602/bin/enso_driver.py -p ../param/my_Param_ENSO_PCMDIobs.py --mip cmip6 --metricsCollection ENSO_tel --case_id v20200608 --modnames my_model --realization r1i1p1f1",
         "conda": {
             "Platform": "linux-64",
             "PythonVersion": "3.7.3.final.0",
