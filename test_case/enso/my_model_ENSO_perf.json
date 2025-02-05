@@ -1,0 +1,1916 @@
+{
+    "DISCLAIMER": "USER-NOTICE: The results in this file were produced with the PMP v1.1 (https://github.com/PCMDI/pcmdi_metrics). They are for research purposes only. They are subject to ongoing quality control and change as the PMP software advances, interpolation methods are modified, observational data sets are updated, problems with model data are corrected, etc. Use of these results for research (presentation, publications, etc.) should reference: Gleckler, P. J., C. Doutriaux, P. J. Durack, K. E. Taylor, Y. Zhang, and D. N. Williams, E. Mason, and J. Servonnat (2016), A more powerful reality test for climate models, Eos, 97, doi:10.1029/2016EO051663. If any problems are uncovered in using these results please contact the PMP development team at pcmdi-metrics@llnl.gov\n",
+    "REFERENCE": "MC for ENSO Performance...",
+    "RESULTS": {
+        "model": {
+            "E3SM-1-0": {
+                "r1i1p1f1": {
+                    "metadata": {
+                        "description_of_the_collection": "Describe which science question this collection is about",
+                        "metrics": {
+                            "BiasPrLatRmse": {
+                                "diagnostic": {
+                                    "CMAP-V1902": {
+                                        "name": "CMAP-V1902",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "GPCP-2-3": {
+                                        "name": "GPCP-2-3",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "TRMM-3B43v-7": {
+                                        "name": "TRMM-3B43v-7",
+                                        "nyears": 20,
+                                        "time_period": [
+                                            "1998-1-16 12:0:0.0",
+                                            "2017-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Meridional root mean square error of nino3_LatExt pr, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                                    "name": "pr Meridional RMSE",
+                                    "ref": "Using CDAT regridding and rms (uncentered and biased) calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "mm/day"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr; 's ",
+                                    "method": "The metric is the statistical value between the model and the observations",
+                                    "name": "BiasPrLatRmse",
+                                    "units": "mm/day"
+                                }
+                            },
+                            "BiasPrLonRmse": {
+                                "diagnostic": {
+                                    "CMAP-V1902": {
+                                        "name": "CMAP-V1902",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "GPCP-2-3": {
+                                        "name": "GPCP-2-3",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "TRMM-3B43v-7": {
+                                        "name": "TRMM-3B43v-7",
+                                        "nyears": 20,
+                                        "time_period": [
+                                            "1998-1-16 12:0:0.0",
+                                            "2017-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Zonal root mean square error of equatorial_pacific pr, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                                    "name": "pr Zonal RMSE",
+                                    "ref": "Using CDAT regridding and rms (uncentered and biased) calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "mm/day"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr; 's ",
+                                    "method": "The metric is the statistical value between the model and the observations",
+                                    "name": "BiasPrLonRmse",
+                                    "units": "mm/day"
+                                }
+                            },
+                            "BiasSstLonRmse": {
+                                "diagnostic": {
+                                    "20CR": {
+                                        "name": "20CR",
+                                        "nyears": 142,
+                                        "time_period": [
+                                            "1871-1-16 12:0:0.0",
+                                            "2012-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-20C": {
+                                        "name": "ERA-20C",
+                                        "nyears": 111,
+                                        "time_period": [
+                                            "1900-1-16 12:0:0.0",
+                                            "2010-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-5": {
+                                        "name": "ERA-5",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "HadISST-1-1": {
+                                        "name": "HadISST-1-1",
+                                        "nyears": 149,
+                                        "time_period": [
+                                            "1870-1-16 11:59:59.5",
+                                            "2018-12-16 18:0:0.0"
+                                        ]
+                                    },
+                                    "TropFlux-1-0": {
+                                        "name": "TropFlux-1-0",
+                                        "nyears": 39,
+                                        "time_period": [
+                                            "1979-1-15 0:0:0.0",
+                                            "2017-7-15 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Zonal root mean square error of equatorial_pacific sst, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                                    "name": "sst Zonal RMSE",
+                                    "ref": "Using CDAT regridding and rms (uncentered and biased) calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "C"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "method": "The metric is the statistical value between the model and the observations",
+                                    "name": "BiasSstLonRmse",
+                                    "units": "C"
+                                }
+                            },
+                            "BiasTauxLonRmse": {
+                                "diagnostic": {
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "TropFlux-1-0": {
+                                        "name": "TropFlux-1-0",
+                                        "nyears": 39,
+                                        "time_period": [
+                                            "1979-1-15 0:0:0.0",
+                                            "2017-7-15 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Zonal root mean square error of equatorial_pacific taux, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                                    "name": "taux Zonal RMSE",
+                                    "ref": "Using CDAT regridding and rms (uncentered and biased) calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "1e-3 N/m2"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; ERA-INT's tauu; TropFlux-1-0's tauu; 's ",
+                                    "method": "The metric is the statistical value between the model and the observations",
+                                    "name": "BiasTauxLonRmse",
+                                    "units": "1e-3 N/m2"
+                                }
+                            },
+                            "EnsoAmpl": {
+                                "diagnostic": {
+                                    "20CR": {
+                                        "keyerror": null,
+                                        "name": "20CR",
+                                        "nyears": 142,
+                                        "time_period": [
+                                            "1871-1-16 12:0:0.0",
+                                            "2012-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-20C": {
+                                        "keyerror": null,
+                                        "name": "ERA-20C",
+                                        "nyears": 111,
+                                        "time_period": [
+                                            "1900-1-16 12:0:0.0",
+                                            "2010-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-5": {
+                                        "keyerror": null,
+                                        "name": "ERA-5",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "keyerror": null,
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "HadISST-1-1": {
+                                        "keyerror": "unlikely units: K([-1e+30, 304.7203])",
+                                        "name": "HadISST-1-1",
+                                        "nyears": 149,
+                                        "time_period": [
+                                            "1870-1-16 11:59:59.5",
+                                            "2018-12-16 18:0:0.0"
+                                        ]
+                                    },
+                                    "TropFlux-1-0": {
+                                        "keyerror": null,
+                                        "name": "TropFlux-1-0",
+                                        "nyears": 39,
+                                        "time_period": [
+                                            "1979-1-15 0:0:0.0",
+                                            "2017-7-15 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                                    "name": "ENSO amplitude",
+                                    "ref": "Using CDAT regression calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "C"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                                    "name": "EnsoAmpl",
+                                    "units": "%"
+                                }
+                            },
+                            "EnsoDuration": {
+                                "diagnostic": {
+                                    "20CR": {
+                                        "keyerror": null,
+                                        "name": "20CR",
+                                        "nyears": 142,
+                                        "time_period": [
+                                            "1871-1-16 12:0:0.0",
+                                            "2012-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-20C": {
+                                        "keyerror": null,
+                                        "name": "ERA-20C",
+                                        "nyears": 111,
+                                        "time_period": [
+                                            "1900-1-16 12:0:0.0",
+                                            "2010-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-5": {
+                                        "keyerror": null,
+                                        "name": "ERA-5",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "keyerror": null,
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "HadISST-1-1": {
+                                        "keyerror": null,
+                                        "name": "HadISST-1-1",
+                                        "nyears": 149,
+                                        "time_period": [
+                                            "1870-1-16 11:59:59.5",
+                                            "2018-12-16 18:0:0.0"
+                                        ]
+                                    },
+                                    "TropFlux-1-0": {
+                                        "keyerror": null,
+                                        "name": "TropFlux-1-0",
+                                        "nyears": 39,
+                                        "time_period": [
+                                            "1979-1-15 0:0:0.0",
+                                            "2017-7-15 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "nino3.4 SSTA during DEC regressed against nino3.4 SSTA during 6 years (centered on ENSO), the duration is the number of consecutive months during which the regression is above 0.25, time series are linearly detrended, smoothing using a triangle shaped window of 5 points",
+                                    "name": "ENSO Duration based on life cyle SSTA pattern",
+                                    "ref": "Using CDAT",
+                                    "time_frequency": "monthly",
+                                    "units": "months"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                                    "name": "EnsoDuration",
+                                    "units": "%"
+                                }
+                            },
+                            "EnsoSeasonality": {
+                                "diagnostic": {
+                                    "20CR": {
+                                        "keyerror": null,
+                                        "name": "20CR",
+                                        "nyears": 142,
+                                        "time_period": [
+                                            "1871-1-16 12:0:0.0",
+                                            "2012-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-20C": {
+                                        "keyerror": null,
+                                        "name": "ERA-20C",
+                                        "nyears": 111,
+                                        "time_period": [
+                                            "1900-1-16 12:0:0.0",
+                                            "2010-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-5": {
+                                        "keyerror": null,
+                                        "name": "ERA-5",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "keyerror": null,
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "HadISST-1-1": {
+                                        "keyerror": "unlikely units: K([-1e+30, 304.7203])",
+                                        "name": "HadISST-1-1",
+                                        "nyears": 149,
+                                        "time_period": [
+                                            "1870-1-16 11:59:59.5",
+                                            "2018-12-16 18:0:0.0"
+                                        ]
+                                    },
+                                    "TropFlux-1-0": {
+                                        "keyerror": null,
+                                        "name": "TropFlux-1-0",
+                                        "nyears": 39,
+                                        "time_period": [
+                                            "1979-1-15 0:0:0.0",
+                                            "2017-7-15 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                                    "name": "ENSO seasonality",
+                                    "ref": "Using CDAT std dev calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "C/C"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                                    "name": "EnsoSeasonality",
+                                    "units": "%"
+                                }
+                            },
+                            "EnsoSstDiversity_2": {
+                                "diagnostic": {
+                                    "20CR": {
+                                        "keyerror": null,
+                                        "name": "20CR",
+                                        "nyears": 142,
+                                        "time_period": [
+                                            "1871-1-16 12:0:0.0",
+                                            "2012-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-20C": {
+                                        "keyerror": null,
+                                        "name": "ERA-20C",
+                                        "nyears": 111,
+                                        "time_period": [
+                                            "1900-1-16 12:0:0.0",
+                                            "2010-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-5": {
+                                        "keyerror": null,
+                                        "name": "ERA-5",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "keyerror": null,
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "HadISST-1-1": {
+                                        "keyerror": null,
+                                        "name": "HadISST-1-1",
+                                        "nyears": 149,
+                                        "time_period": [
+                                            "1870-1-16 11:59:59.5",
+                                            "2018-12-16 18:0:0.0"
+                                        ]
+                                    },
+                                    "TropFlux-1-0": {
+                                        "keyerror": null,
+                                        "name": "TropFlux-1-0",
+                                        "nyears": 39,
+                                        "time_period": [
+                                            "1979-1-15 0:0:0.0",
+                                            "2017-7-15 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Nino (Nina) events = nino3.4 sstA > 0.75 (< -0.75) during DEC, zonal SSTA (meridional averaged [-5.0 ; 5.0]), the zonal SSTA maximum (minimum) is located for each event, the diversity is the interquartile range (IQR = Q3 - Q1), time series are linearly detrended, smoothing using a triangle shaped window of 5 points",
+                                    "name": "ENSO Diversity (interquartile range)",
+                                    "ref": "Using CDAT regridding",
+                                    "time_frequency": "monthly",
+                                    "units": "long"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                                    "name": "EnsoSstDiversity",
+                                    "units": "%"
+                                }
+                            },
+                            "EnsoSstLonRmse": {
+                                "diagnostic": {
+                                    "20CR": {
+                                        "name": "20CR",
+                                        "nyears": 142,
+                                        "time_period": [
+                                            "1871-1-16 12:0:0.0",
+                                            "2012-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-20C": {
+                                        "name": "ERA-20C",
+                                        "nyears": 111,
+                                        "time_period": [
+                                            "1900-1-16 12:0:0.0",
+                                            "2010-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-5": {
+                                        "name": "ERA-5",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "HadISST-1-1": {
+                                        "name": "HadISST-1-1",
+                                        "nyears": 149,
+                                        "time_period": [
+                                            "1870-1-16 11:59:59.5",
+                                            "2018-12-16 18:0:0.0"
+                                        ]
+                                    },
+                                    "TropFlux-1-0": {
+                                        "name": "TropFlux-1-0",
+                                        "nyears": 39,
+                                        "time_period": [
+                                            "1979-1-15 0:0:0.0",
+                                            "2017-7-15 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                                    "name": "ENSO Zonal SSTA pattern",
+                                    "ref": "Using CDAT regridding and rms (uncentered and biased) calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "C/C"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "method": "The metric is the statistical value between the model and the observations",
+                                    "name": "EnsoSstLonRmse",
+                                    "units": "C/C"
+                                }
+                            },
+                            "EnsoSstSkew": {
+                                "diagnostic": {
+                                    "20CR": {
+                                        "keyerror": null,
+                                        "name": "20CR",
+                                        "nyears": 142,
+                                        "time_period": [
+                                            "1871-1-16 12:0:0.0",
+                                            "2012-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-20C": {
+                                        "keyerror": null,
+                                        "name": "ERA-20C",
+                                        "nyears": 111,
+                                        "time_period": [
+                                            "1900-1-16 12:0:0.0",
+                                            "2010-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-5": {
+                                        "keyerror": null,
+                                        "name": "ERA-5",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "keyerror": null,
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "HadISST-1-1": {
+                                        "keyerror": "unlikely units: K([-1e+30, 304.7203])",
+                                        "name": "HadISST-1-1",
+                                        "nyears": 149,
+                                        "time_period": [
+                                            "1870-1-16 11:59:59.5",
+                                            "2018-12-16 18:0:0.0"
+                                        ]
+                                    },
+                                    "TropFlux-1-0": {
+                                        "keyerror": null,
+                                        "name": "TropFlux-1-0",
+                                        "nyears": 39,
+                                        "time_period": [
+                                            "1979-1-15 0:0:0.0",
+                                            "2017-7-15 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                                    "name": "ENSO skewness",
+                                    "ref": "Using CDAT regression calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "C"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                                    "name": "EnsoSstSkew",
+                                    "units": "%"
+                                }
+                            },
+                            "EnsoSstTsRmse": {
+                                "diagnostic": {
+                                    "20CR": {
+                                        "name": "20CR",
+                                        "nyears": 142,
+                                        "time_period": [
+                                            "1871-1-16 12:0:0.0",
+                                            "2012-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-20C": {
+                                        "name": "ERA-20C",
+                                        "nyears": 111,
+                                        "time_period": [
+                                            "1900-1-16 12:0:0.0",
+                                            "2010-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-5": {
+                                        "name": "ERA-5",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "HadISST-1-1": {
+                                        "name": "HadISST-1-1",
+                                        "nyears": 149,
+                                        "time_period": [
+                                            "1870-1-16 11:59:59.5",
+                                            "2018-12-16 18:0:0.0"
+                                        ]
+                                    },
+                                    "TropFlux-1-0": {
+                                        "name": "TropFlux-1-0",
+                                        "nyears": 39,
+                                        "time_period": [
+                                            "1979-1-15 0:0:0.0",
+                                            "2017-7-15 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "nino3.4 SSTA during DEC regressed against nino3.4 SSTA during 6 years (centered on ENSO), time series are linearly detrended, smoothing using a triangle shaped window of 5 points",
+                                    "name": "ENSO life cyle SSTA pattern",
+                                    "ref": "Using CDAT regridding and rms (uncentered and biased) calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "C/C"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "method": "The metric is the statistical value between the model and the observations",
+                                    "name": "EnsoSstTsRmse",
+                                    "units": "C/C"
+                                }
+                            },
+                            "SeasonalPrLatRmse": {
+                                "diagnostic": {
+                                    "CMAP-V1902": {
+                                        "name": "CMAP-V1902",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "GPCP-2-3": {
+                                        "name": "GPCP-2-3",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "TRMM-3B43v-7": {
+                                        "name": "TRMM-3B43v-7",
+                                        "nyears": 20,
+                                        "time_period": [
+                                            "1998-1-16 12:0:0.0",
+                                            "2017-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Meridional root mean square error of nino3_LatExt climatological pr STD, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                                    "name": "pr meridional seasonality RMSE",
+                                    "ref": "Using CDAT regridding and rms (uncentered and biased) calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "mm/day"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr; 's ",
+                                    "method": "The metric is the statistical value between the model and the observations",
+                                    "name": "SeasonalPrLatRmse",
+                                    "units": "mm/day"
+                                }
+                            },
+                            "SeasonalPrLonRmse": {
+                                "diagnostic": {
+                                    "CMAP-V1902": {
+                                        "name": "CMAP-V1902",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "GPCP-2-3": {
+                                        "name": "GPCP-2-3",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "TRMM-3B43v-7": {
+                                        "name": "TRMM-3B43v-7",
+                                        "nyears": 20,
+                                        "time_period": [
+                                            "1998-1-16 12:0:0.0",
+                                            "2017-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Zonal root mean square error of equatorial_pacific climatological pr STD, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                                    "name": "pr zonal seasonality RMSE",
+                                    "ref": "Using CDAT regridding and rms (uncentered and biased) calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "mm/day"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; CMAP-V1902's pr; ERA-INT's pr; GPCP-2-3's pr; TRMM-3B43v-7's pr; 's ",
+                                    "method": "The metric is the statistical value between the model and the observations",
+                                    "name": "SeasonalPrLonRmse",
+                                    "units": "mm/day"
+                                }
+                            },
+                            "SeasonalSstLonRmse": {
+                                "diagnostic": {
+                                    "20CR": {
+                                        "name": "20CR",
+                                        "nyears": 142,
+                                        "time_period": [
+                                            "1871-1-16 12:0:0.0",
+                                            "2012-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-20C": {
+                                        "name": "ERA-20C",
+                                        "nyears": 111,
+                                        "time_period": [
+                                            "1900-1-16 12:0:0.0",
+                                            "2010-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-5": {
+                                        "name": "ERA-5",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "HadISST-1-1": {
+                                        "name": "HadISST-1-1",
+                                        "nyears": 149,
+                                        "time_period": [
+                                            "1870-1-16 11:59:59.5",
+                                            "2018-12-16 18:0:0.0"
+                                        ]
+                                    },
+                                    "TropFlux-1-0": {
+                                        "name": "TropFlux-1-0",
+                                        "nyears": 39,
+                                        "time_period": [
+                                            "1979-1-15 0:0:0.0",
+                                            "2017-7-15 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Zonal root mean square error of equatorial_pacific climatological sst STD, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                                    "name": "sst zonal seasonality RMSE",
+                                    "ref": "Using CDAT regridding and rms (uncentered and biased) calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "C"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; 20CR's ts; ERA-20C's ts; ERA-5's ts; ERA-INT's ts; HadISST-1-1's ts; TropFlux-1-0's ts; 's ",
+                                    "method": "The metric is the statistical value between the model and the observations",
+                                    "name": "SeasonalSstLonRmse",
+                                    "units": "C"
+                                }
+                            },
+                            "SeasonalTauxLonRmse": {
+                                "diagnostic": {
+                                    "E3SM-1-0_r1i1p1f1": {
+                                        "keyerror": null,
+                                        "name": "E3SM-1-0_r1i1p1f1",
+                                        "nyears": 165,
+                                        "time_period": [
+                                            "1850-1-16 12:0:0.0",
+                                            "2014-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "ERA-INT": {
+                                        "name": "ERA-INT",
+                                        "nyears": 40,
+                                        "time_period": [
+                                            "1979-1-16 12:0:0.0",
+                                            "2018-12-16 12:0:0.0"
+                                        ]
+                                    },
+                                    "TropFlux-1-0": {
+                                        "name": "TropFlux-1-0",
+                                        "nyears": 39,
+                                        "time_period": [
+                                            "1979-1-15 0:0:0.0",
+                                            "2017-7-15 12:0:0.0"
+                                        ]
+                                    },
+                                    "method": "Zonal root mean square error of equatorial_pacific climatological taux STD, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                                    "name": "taux zonal seasonality RMSE",
+                                    "ref": "Using CDAT regridding and rms (uncentered and biased) calculation",
+                                    "time_frequency": "monthly",
+                                    "units": "1e-3 N/m2"
+                                },
+                                "metric": {
+                                    "datasets": "E3SM-1-0_r1i1p1f1; ERA-INT's tauu; TropFlux-1-0's tauu; 's ",
+                                    "method": "The metric is the statistical value between the model and the observations",
+                                    "name": "SeasonalTauxLonRmse",
+                                    "units": "1e-3 N/m2"
+                                }
+                            }
+                        },
+                        "name": "Metrics Collection for ENSO performance"
+                    },
+                    "value": {
+                        "BiasPrLatRmse": {
+                            "diagnostic": {
+                                "CMAP-V1902": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "GPCP-2-3": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "TRMM-3B43v-7": {
+                                    "value": null,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "CMAP-V1902": {
+                                    "value": 1.7009119372289268,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 1.6837484382770753,
+                                    "value_error": null
+                                },
+                                "GPCP-2-3": {
+                                    "value": 1.619486908634075,
+                                    "value_error": null
+                                },
+                                "TRMM-3B43v-7": {
+                                    "value": 1.6697480779724998,
+                                    "value_error": null
+                                }
+                            }
+                        },
+                        "BiasPrLonRmse": {
+                            "diagnostic": {
+                                "CMAP-V1902": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "GPCP-2-3": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "TRMM-3B43v-7": {
+                                    "value": null,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "CMAP-V1902": {
+                                    "value": 1.9150246460513578,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 2.3010669411117437,
+                                    "value_error": null
+                                },
+                                "GPCP-2-3": {
+                                    "value": 1.3687898407707921,
+                                    "value_error": null
+                                },
+                                "TRMM-3B43v-7": {
+                                    "value": 1.158086218057987,
+                                    "value_error": null
+                                }
+                            }
+                        },
+                        "BiasSstLonRmse": {
+                            "diagnostic": {
+                                "20CR": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": null,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "20CR": {
+                                    "value": 0.9705064635783858,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": 0.9540940285249638,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": 0.9404904080948961,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 1.1741518898981862,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": 0.963703662807661,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 1.2351900543825267,
+                                    "value_error": null
+                                }
+                            }
+                        },
+                        "BiasTauxLonRmse": {
+                            "diagnostic": {
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": null,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "ERA-INT": {
+                                    "value": 4.600915148944804,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 5.017160096984655,
+                                    "value_error": null
+                                }
+                            }
+                        },
+                        "EnsoAmpl": {
+                            "diagnostic": {
+                                "20CR": {
+                                    "value": 0.7407960057502115,
+                                    "value_error": 0.062166219832622445
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": 0.9775169698131866,
+                                    "value_error": 0.0760995928899537
+                                },
+                                "ERA-20C": {
+                                    "value": 0.8265126323027572,
+                                    "value_error": 0.07844910735406072
+                                },
+                                "ERA-5": {
+                                    "value": 0.9075909980564855,
+                                    "value_error": 0.14350273688619733
+                                },
+                                "ERA-INT": {
+                                    "value": 0.9001341048707652,
+                                    "value_error": 0.1423236985494241
+                                },
+                                "HadISST-1-1": {
+                                    "value": 0.7688706055408969,
+                                    "value_error": 0.06298833428079066
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 0.9128364190673677,
+                                    "value_error": 0.14617081051130443
+                                }
+                            },
+                            "metric": {
+                                "20CR": {
+                                    "value": 31.95494606146605,
+                                    "value_error": 21.346091705556947
+                                },
+                                "ERA-20C": {
+                                    "value": 18.27005802557601,
+                                    "value_error": 20.433008653192044
+                                },
+                                "ERA-5": {
+                                    "value": 7.70456867756958,
+                                    "value_error": 25.414376871043476
+                                },
+                                "ERA-INT": {
+                                    "value": 8.596815132733083,
+                                    "value_error": 25.624914714997537
+                                },
+                                "HadISST-1-1": {
+                                    "value": 27.13673312110923,
+                                    "value_error": 20.313028254225184
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 7.085667201129215,
+                                    "value_error": 25.484038072993933
+                                }
+                            }
+                        },
+                        "EnsoDuration": {
+                            "diagnostic": {
+                                "20CR": {
+                                    "value": 13.0,
+                                    "value_error": null
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": 12.0,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": 13.0,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": 13.0,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 13.0,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": 13.0,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 13.0,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "20CR": {
+                                    "value": 7.6923076923076925,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": 7.6923076923076925,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": 7.6923076923076925,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 7.6923076923076925,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": 7.6923076923076925,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 7.6923076923076925,
+                                    "value_error": null
+                                }
+                            }
+                        },
+                        "EnsoSeasonality": {
+                            "diagnostic": {
+                                "20CR": {
+                                    "value": 1.6436435961094338,
+                                    "value_error": 0.27635126775510105
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": 1.5027161635138973,
+                                    "value_error": 0.23432871282039192
+                                },
+                                "ERA-20C": {
+                                    "value": 1.5951589911955568,
+                                    "value_error": 0.30349823329934555
+                                },
+                                "ERA-5": {
+                                    "value": 2.0283123524204223,
+                                    "value_error": 0.6454942543282691
+                                },
+                                "ERA-INT": {
+                                    "value": 2.052960044692134,
+                                    "value_error": 0.6533381861195713
+                                },
+                                "HadISST-1-1": {
+                                    "value": 1.6666267700450468,
+                                    "value_error": 0.273531261566947
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 2.06093854374807,
+                                    "value_error": 0.6643426635460994
+                                }
+                            },
+                            "metric": {
+                                "20CR": {
+                                    "value": 8.574087042295366,
+                                    "value_error": 29.62840505620541
+                                },
+                                "ERA-20C": {
+                                    "value": 5.795210896963602,
+                                    "value_error": 32.61358813152336
+                                },
+                                "ERA-5": {
+                                    "value": 25.91298072406459,
+                                    "value_error": 35.130494797772435
+                                },
+                                "ERA-INT": {
+                                    "value": 26.80246420776068,
+                                    "value_error": 34.70872057602507
+                                },
+                                "HadISST-1-1": {
+                                    "value": 9.834871818764752,
+                                    "value_error": 28.858202332546227
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 27.085833390207583,
+                                    "value_error": 34.87385063269432
+                                }
+                            }
+                        },
+                        "EnsoSstDiversity_2": {
+                            "diagnostic": {
+                                "20CR": {
+                                    "value": 48.0,
+                                    "value_error": null
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": 26.25,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": 29.5,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": 31.25,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 32.0,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": 49.0,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 33.25,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "20CR": {
+                                    "value": 45.3125,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": 11.016949152542372,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": 16.0,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 17.96875,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": 46.42857142857143,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 21.052631578947366,
+                                    "value_error": null
+                                }
+                            }
+                        },
+                        "EnsoSstLonRmse": {
+                            "diagnostic": {
+                                "20CR": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": null,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "20CR": {
+                                    "value": 0.15996529141618904,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": 0.16005161688167327,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": 0.1565317741181125,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 0.1615697629124149,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": 0.1650547043248719,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 0.15876199384227382,
+                                    "value_error": null
+                                }
+                            }
+                        },
+                        "EnsoSstSkew": {
+                            "diagnostic": {
+                                "20CR": {
+                                    "value": 0.35464371256710725,
+                                    "value_error": 0.029761039242344564
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": 0.24071176767256128,
+                                    "value_error": 0.018739385698034277
+                                },
+                                "ERA-20C": {
+                                    "value": 0.19142977450459012,
+                                    "value_error": 0.01816971010961296
+                                },
+                                "ERA-5": {
+                                    "value": 0.473403564017451,
+                                    "value_error": 0.07485167573682382
+                                },
+                                "ERA-INT": {
+                                    "value": 0.40501535626049495,
+                                    "value_error": 0.06403855065638503
+                                },
+                                "HadISST-1-1": {
+                                    "value": 0.40320728014992363,
+                                    "value_error": 0.033032027448448076
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 0.3838870736969205,
+                                    "value_error": 0.061471128380725305
+                                }
+                            },
+                            "metric": {
+                                "20CR": {
+                                    "value": 32.12574785827827,
+                                    "value_error": 10.979884073374539
+                                },
+                                "ERA-20C": {
+                                    "value": 25.74416299424177,
+                                    "value_error": 21.724277585068176
+                                },
+                                "ERA-5": {
+                                    "value": 49.152945611603386,
+                                    "value_error": 11.998063024398691
+                                },
+                                "ERA-INT": {
+                                    "value": 40.56724912974856,
+                                    "value_error": 14.023976398078005
+                                },
+                                "HadISST-1-1": {
+                                    "value": 40.3007387210226,
+                                    "value_error": 9.538335234405146
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 37.29620397101371,
+                                    "value_error": 14.92212699504086
+                                }
+                            }
+                        },
+                        "EnsoSstTsRmse": {
+                            "diagnostic": {
+                                "20CR": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": null,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "20CR": {
+                                    "value": 0.10025981322620466,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": 0.11863890386897388,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": 0.11855061407433244,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 0.11133191931266916,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": 0.10152361112630938,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 0.10387907717595597,
+                                    "value_error": null
+                                }
+                            }
+                        },
+                        "SeasonalPrLatRmse": {
+                            "diagnostic": {
+                                "CMAP-V1902": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "GPCP-2-3": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "TRMM-3B43v-7": {
+                                    "value": null,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "CMAP-V1902": {
+                                    "value": 1.1112398389770146,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 1.0981980231015198,
+                                    "value_error": null
+                                },
+                                "GPCP-2-3": {
+                                    "value": 1.2006220378845887,
+                                    "value_error": null
+                                },
+                                "TRMM-3B43v-7": {
+                                    "value": 1.1499366450894632,
+                                    "value_error": null
+                                }
+                            }
+                        },
+                        "SeasonalPrLonRmse": {
+                            "diagnostic": {
+                                "CMAP-V1902": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "GPCP-2-3": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "TRMM-3B43v-7": {
+                                    "value": null,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "CMAP-V1902": {
+                                    "value": 0.4504415704504219,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 0.7084420413472635,
+                                    "value_error": null
+                                },
+                                "GPCP-2-3": {
+                                    "value": 0.41290129467535525,
+                                    "value_error": null
+                                },
+                                "TRMM-3B43v-7": {
+                                    "value": 0.3622457358708906,
+                                    "value_error": null
+                                }
+                            }
+                        },
+                        "SeasonalSstLonRmse": {
+                            "diagnostic": {
+                                "20CR": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": null,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "20CR": {
+                                    "value": 0.17330174835245665,
+                                    "value_error": null
+                                },
+                                "ERA-20C": {
+                                    "value": 0.15319854223554483,
+                                    "value_error": null
+                                },
+                                "ERA-5": {
+                                    "value": 0.14801606194547262,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": 0.15469449764630178,
+                                    "value_error": null
+                                },
+                                "HadISST-1-1": {
+                                    "value": 0.170534677637861,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 0.1476115339816176,
+                                    "value_error": null
+                                }
+                            }
+                        },
+                        "SeasonalTauxLonRmse": {
+                            "diagnostic": {
+                                "E3SM-1-0_r1i1p1f1": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "ERA-INT": {
+                                    "value": null,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": null,
+                                    "value_error": null
+                                }
+                            },
+                            "metric": {
+                                "ERA-INT": {
+                                    "value": 2.07132526504408,
+                                    "value_error": null
+                                },
+                                "TropFlux-1-0": {
+                                    "value": 1.9793025130633428,
+                                    "value_error": null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "obs": {
+            "20CR": {
+                "sst": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/ts/20CR/gn/v20200707/ts_mon_20CR_BE_gn_v20200707_187101-201212.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": null,
+                    "varname": "ts"
+                }
+            },
+            "CMAP-V1902": {
+                "pr": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/pr/CMAP-V1902/gn/v20200707/pr_mon_CMAP-V1902_BE_gn_v20200707_197901-201901.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": null,
+                    "varname": "pr"
+                }
+            },
+            "ERA-20C": {
+                "sst": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/ts/ERA-20C/gn/v20200707/ts_mon_ERA-20C_BE_gn_v20200707_190001-201012.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": null,
+                    "varname": "ts"
+                }
+            },
+            "ERA-5": {
+                "sst": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/ts/ERA-5/gn/v20200707/ts_mon_ERA-5_BE_gn_v20200707_197901-201912.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": null,
+                    "varname": "ts"
+                }
+            },
+            "ERA-INT": {
+                "pr": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/pr/ERA-INT/gn/v20200707/pr_mon_ERA-INT_BE_gn_v20200707_197901-201903.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": null,
+                    "varname": "pr"
+                },
+                "sst": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/ts/ERA-INT/gn/v20200707/ts_mon_ERA-INT_BE_gn_v20200707_197901-201903.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": null,
+                    "varname": "ts"
+                },
+                "taux": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/tauu/ERA-INT/gn/v20200707/tauu_mon_ERA-INT_BE_gn_v20200707_197901-201903.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": null,
+                    "varname": "tauu"
+                }
+            },
+            "GPCP-2-3": {
+                "pr": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/pr/GPCP-2-3/gn/v20200707/pr_mon_GPCP-2-3_BE_gn_v20200707_197901-201907.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": "/work/lee1043/DATA/GPCP/gpcp_25_lsmask.nc",
+                    "varname": "pr"
+                }
+            },
+            "HadISST-1-1": {
+                "sst": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/ts/HadISST-1-1/gn/v20210422/ts_mon_HadISST-1-1_BE_gn_v20210422_187001-201907.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": null,
+                    "varname": "ts"
+                }
+            },
+            "TRMM-3B43v-7": {
+                "pr": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/pr/TRMM-3B43v-7/gn/v20200707/pr_mon_TRMM-3B43v-7_BE_gn_v20200707_199801-201712.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": null,
+                    "varname": "pr"
+                }
+            },
+            "TropFlux-1-0": {
+                "sst": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/ts/TropFlux-1-0/gn/v20210422/ts_mon_TropFlux-1-0_BE_gn_v20210422_197901-201707.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": null,
+                    "varname": "ts"
+                },
+                "taux": {
+                    "areaname": "areacella",
+                    "landmaskname": "sftlf",
+                    "path + filename": "/p/user_pub/PCMDIobs/PCMDIobs2/atmos/mon/tauu/TropFlux-1-0/gn/v20210422/tauu_mon_TropFlux-1-0_BE_gn_v20210422_197901-201707.nc",
+                    "path + filename_area": null,
+                    "path + filename_landmask": null,
+                    "varname": "tauu"
+                }
+            }
+        }
+    },
+    "YAML": "name: pmp_nightly_20210602\nchannels:\n  - pcmdi/label/nightly\n  - cdat/label/nightly\n  - anaconda\n  - conda-forge\n  - defaults\ndependencies:\n  - _libgcc_mutex=0.1=conda_forge\n  - _openmp_mutex=4.5=1_gnu\n  - alsa-lib=1.2.3=h516909a_0\n  - anyio=3.1.0=py38h578d9bd_0\n  - argon2-cffi=20.1.0=py38h497a2fe_2\n  - async_generator=1.10=py_0\n  - attrs=21.2.0=pyhd8ed1ab_0\n  - babel=2.9.1=pyh44b312d_0\n  - backcall=0.2.0=pyh9f0ad1d_0\n  - backports=1.0=py_2\n  - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0\n  - blas=1.0=openblas\n  - bleach=3.3.0=pyh44b312d_0\n  - bokeh=2.3.2=py38h578d9bd_0\n  - brotlipy=0.7.0=py38h497a2fe_1001\n  - bzip2=1.0.8=h7f98852_4\n  - c-ares=1.17.1=h7f98852_1\n  - ca-certificates=2020.10.14=0\n  - cdat_info=8.2.2020.08.27.15.53.ga42e5c8=pyh9f0ad1d_0\n  - cdms2=3.1.5.2020.11.03.21.54.gf997653=py38h11a58eb_0\n  - cdp=1.7.0=pyhd8ed1ab_0\n  - cdtime=3.1.4.2020.10.12.15.52.g2b715b5=py38hac60b08_0\n  - cdutil=8.2.2020.09.28.17.09.g484910c=pyh9f0ad1d_0\n  - certifi=2020.6.20=py38_0\n  - cffi=1.14.5=py38ha65f79e_0\n  - chardet=4.0.0=py38h578d9bd_1\n  - cia=0.0.6=0\n  - click=8.0.1=py38h578d9bd_0\n  - cloudpickle=1.6.0=py_0\n  - cryptography=3.4.7=py38ha5dfef3_0\n  - curl=7.77.0=hea6ffbf_0\n  - cycler=0.10.0=py_2\n  - cytoolz=0.11.0=py38h497a2fe_3\n  - dask=2021.5.1=pyhd8ed1ab_0\n  - dask-core=2021.5.1=pyhd8ed1ab_0\n  - dbus=1.13.6=h48d8840_2\n  - decorator=5.0.9=pyhd8ed1ab_0\n  - defusedxml=0.7.1=pyhd8ed1ab_0\n  - distarray=2.12.2=py_1\n  - distributed=2021.5.1=py38h578d9bd_0\n  - dv3d=8.2.2020.07.17.21.42.g86f50aa=pyh9f0ad1d_0\n  - entrypoints=0.3=pyhd8ed1ab_1003\n  - eofs=1.4.0=py_0\n  - esmf=8.0.1=nompi_hcaa3220_2\n  - esmpy=8.0.1=nompi_py38h5410a82_2\n  - expat=2.4.1=h9c3ff4c_0\n  - ffmpeg=4.2.3=h167e202_0\n  - fontconfig=2.13.1=hba837de_1005\n  - freetype=2.10.4=h0708190_1\n  - fsspec=2021.5.0=pyhd8ed1ab_0\n  - future=0.18.2=py38h578d9bd_3\n  - g2clib=1.6.0=hf3f1b0b_9\n  - genutil=8.2.2020.10.07.17.46.ge34ccd5=py38hab2c0dc_0\n  - gettext=0.19.8.1=h0b5b191_1005\n  - ghostscript=9.54.0=h9c3ff4c_1\n  - glib=2.68.2=h9c3ff4c_2\n  - glib-tools=2.68.2=h9c3ff4c_2\n  - gmp=6.2.1=h58526e2_0\n  - gnutls=3.6.13=h85f3911_1\n  - gst-plugins-base=1.18.4=hf529b03_2\n  - gstreamer=1.18.4=h76c114f_2\n  - hdf4=4.2.15=h10796ff_3\n  - hdf5=1.10.6=nompi_h7c3c948_1111\n  - heapdict=1.0.1=py_0\n  - icu=68.1=h58526e2_0\n  - idna=2.10=pyh9f0ad1d_0\n  - importlib-metadata=4.4.0=py38h578d9bd_0\n  - ipykernel=5.5.5=py38hd0cf306_0\n  - ipython=7.24.0=py38hd0cf306_0\n  - ipython_genutils=0.2.0=py_1\n  - jasper=1.900.1=h07fcdf6_1006\n  - jedi=0.18.0=py38h578d9bd_2\n  - jinja2=3.0.1=pyhd8ed1ab_0\n  - jpeg=9d=h36c2ea0_0\n  - json5=0.9.5=pyh9f0ad1d_0\n  - jsonschema=3.2.0=pyhd8ed1ab_3\n  - jupyter_client=6.1.12=pyhd8ed1ab_0\n  - jupyter_core=4.7.1=py38h578d9bd_0\n  - jupyter_server=1.8.0=pyhd8ed1ab_0\n  - jupyterlab=3.0.16=pyhd8ed1ab_0\n  - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0\n  - jupyterlab_server=2.6.0=pyhd8ed1ab_0\n  - kiwisolver=1.3.1=py38h1fd1430_1\n  - krb5=1.19.1=hcc1bbae_0\n  - lame=3.100=h7f98852_1001\n  - lazy-object-proxy=1.6.0=py38h497a2fe_0\n  - lcms2=2.12=hddcbb42_0\n  - ld_impl_linux-64=2.35.1=hea4e1c9_2\n  - libblas=3.8.0=17_openblas\n  - libcblas=3.8.0=17_openblas\n  - libcdms=3.1.2=h054cd8a_113\n  - libcf=1.0.3=py38h88b7cc0_109\n  - libclang=11.1.0=default_ha53f305_1\n  - libcurl=7.77.0=h2574ce0_0\n  - libdrs=3.1.2=hc2e2db3_113\n  - libdrs_f=3.1.2=hae7e664_111\n  - libedit=3.1.20191231=he28a2e2_2\n  - libev=4.33=h516909a_1\n  - libevent=2.1.10=hcdb4288_3\n  - libffi=3.3=h58526e2_2\n  - libgcc-ng=9.3.0=h2828fa1_19\n  - libgfortran-ng=7.5.0=h14aa051_19\n  - libgfortran4=7.5.0=h14aa051_19\n  - libglib=2.68.2=h3e27bee_2\n  - libgomp=9.3.0=h2828fa1_19\n  - libiconv=1.16=h516909a_0\n  - liblapack=3.8.0=17_openblas\n  - libllvm11=11.1.0=hf817b99_2\n  - libnetcdf=4.7.4=nompi_h56d31a8_107\n  - libnghttp2=1.43.0=h812cca2_0\n  - libogg=1.3.4=h7f98852_1\n  - libopenblas=0.3.10=pthreads_hb3c22a3_5\n  - libopus=1.3.1=h7f98852_1\n  - libpng=1.6.37=h21135ba_2\n  - libpq=13.3=hd57d9b9_0\n  - libsodium=1.0.18=h36c2ea0_1\n  - libssh2=1.9.0=ha56f1ee_6\n  - libstdcxx-ng=9.3.0=h6de172a_19\n  - libtiff=4.2.0=hbd63e13_2\n  - libuuid=2.32.1=h7f98852_1000\n  - libvorbis=1.3.7=h9c3ff4c_0\n  - libwebp-base=1.2.0=h7f98852_2\n  - libxcb=1.13=h7f98852_1003\n  - libxkbcommon=1.0.3=he3ba5ed_0\n  - libxml2=2.9.12=h72842e0_0\n  - locket=0.2.0=py_2\n  - lz4-c=1.9.3=h9c3ff4c_0\n  - markupsafe=2.0.1=py38h497a2fe_0\n  - matplotlib=3.4.2=py38h578d9bd_0\n  - matplotlib-base=3.4.2=py38hcc49a3a_0\n  - matplotlib-inline=0.1.2=pyhd8ed1ab_2\n  - mistune=0.8.4=py38h497a2fe_1003\n  - msgpack-python=1.0.2=py38h1fd1430_1\n  - mysql-common=8.0.23=ha770c72_2\n  - mysql-libs=8.0.23=h935591d_2\n  - nb_conda=2.2.1=py38h578d9bd_4\n  - nb_conda_kernels=2.3.1=py38h578d9bd_0\n  - nbclassic=0.3.1=pyhd8ed1ab_1\n  - nbclient=0.5.3=pyhd8ed1ab_0\n  - nbconvert=6.0.7=py38h578d9bd_3\n  - nbformat=5.1.3=pyhd8ed1ab_0\n  - ncurses=6.2=h58526e2_4\n  - nest-asyncio=1.5.1=pyhd8ed1ab_0\n  - netcdf-fortran=4.5.3=nompi_hfef6a68_101\n  - nettle=3.6=he412f7d_0\n  - notebook=6.4.0=pyha770c72_0\n  - nspr=4.30=h9c3ff4c_0\n  - nss=3.66=hb5efdd6_0\n  - numpy=1.20.3=py38h9894fe3_1\n  - olefile=0.46=pyh9f0ad1d_1\n  - openblas=0.3.10=pthreads_h43bd3aa_5\n  - openh264=2.1.1=h780b84a_0\n  - openjpeg=2.4.0=hb52868f_1\n  - openssl=1.1.1k=h7f98852_0\n  - output_viewer=1.3.2=pyhd3deb0d_0\n  - packaging=20.9=pyh44b312d_0\n  - pandas=1.2.4=py38h1abd341_0\n  - pandoc=2.14.0.1=h7f98852_0\n  - pandocfilters=1.4.2=py_1\n  - parso=0.8.2=pyhd8ed1ab_0\n  - partd=1.2.0=pyhd8ed1ab_0\n  - pcmdi_metrics=1.2.2021.04.13.22.34.gaf9afb3=pyh878ad00_0\n  - pcre=8.44=he1b5a44_0\n  - pexpect=4.8.0=pyh9f0ad1d_2\n  - pickleshare=0.7.5=py_1003\n  - pillow=8.2.0=py38ha0e1e83_1\n  - pip=21.1.2=pyhd8ed1ab_0\n  - proj4=6.1.1=hc80f0dc_1\n  - prometheus_client=0.11.0=pyhd8ed1ab_0\n  - prompt-toolkit=3.0.18=pyha770c72_0\n  - psutil=5.8.0=py38h497a2fe_1\n  - pthread-stubs=0.4=h36c2ea0_1001\n  - ptyprocess=0.7.0=pyhd3deb0d_0\n  - pycparser=2.20=pyh9f0ad1d_2\n  - pygments=2.9.0=pyhd8ed1ab_0\n  - pyopenssl=20.0.1=pyhd8ed1ab_0\n  - pyparsing=2.4.7=pyh9f0ad1d_0\n  - pyqt=5.12.3=py38h578d9bd_7\n  - pyqt-impl=5.12.3=py38h7400c14_7\n  - pyqt5-sip=4.19.18=py38h709712a_7\n  - pyqtchart=5.12=py38h7400c14_7\n  - pyqtwebengine=5.12.1=py38h7400c14_7\n  - pyrsistent=0.17.3=py38h497a2fe_2\n  - pysocks=1.7.1=py38h578d9bd_3\n  - python=3.8.10=h49503c6_1_cpython\n  - python-dateutil=2.8.1=py_0\n  - python_abi=3.8=1_cp38\n  - pytz=2021.1=pyhd8ed1ab_0\n  - pyyaml=5.4.1=py38h497a2fe_0\n  - pyzmq=22.1.0=py38h2035c66_0\n  - qt=5.12.9=hda022c4_4\n  - readline=8.1=h46c0cb4_0\n  - requests=2.25.1=pyhd3deb0d_0\n  - scipy=1.5.2=py38habc2bb6_0\n  - send2trash=1.5.0=py_0\n  - setuptools=49.6.0=py38h578d9bd_3\n  - six=1.16.0=pyh6c4a22f_0\n  - sniffio=1.2.0=py38h578d9bd_1\n  - sortedcontainers=2.4.0=pyhd8ed1ab_0\n  - sqlite=3.35.5=h74cdb3f_0\n  - tblib=1.7.0=pyhd8ed1ab_0\n  - terminado=0.10.0=py38h578d9bd_0\n  - testpath=0.5.0=pyhd8ed1ab_0\n  - tk=8.6.10=h21135ba_1\n  - toolz=0.11.1=py_0\n  - tornado=6.1=py38h497a2fe_1\n  - traitlets=5.0.5=py_0\n  - typing_extensions=3.7.4.3=py_0\n  - udunits2=2.2.27.27=h975c496_1\n  - urllib3=1.26.5=pyhd8ed1ab_0\n  - vcs=8.2.2020.08.06.20.48.g4abe712=pyh9f0ad1d_0\n  - vcsaddons=8.2.2020.07.22.18.33.g40b269e=py38h1e0a361_0\n  - vtk-cdat=8.2.0.8.2.2020.07.20.18.56.g3aa9eaf=py38hb5527b4_0\n  - wcwidth=0.2.5=pyh9f0ad1d_2\n  - webencodings=0.5.1=py_1\n  - websocket-client=0.57.0=py38h578d9bd_4\n  - wheel=0.36.2=pyhd3deb0d_0\n  - x264=1!152.20180806=h14c3975_0\n  - xorg-libxau=1.0.9=h7f98852_0\n  - xorg-libxdmcp=1.1.3=h7f98852_0\n  - xz=5.2.5=h516909a_1\n  - yaml=0.2.5=h516909a_0\n  - zeromq=4.3.4=h9c3ff4c_0\n  - zict=2.0.0=py_0\n  - zipp=3.4.1=pyhd8ed1ab_0\n  - zlib=1.2.11=h516909a_1010\n  - zstd=1.4.9=ha95c52a_0\n  - pip:\n    - ensometrics==1.0-2020\nprefix: /export/lee1043/anaconda3/envs/pmp_nightly_20210602\n\n",
+    "json_structure": [
+        "type",
+        "data",
+        "metric",
+        "item",
+        "value or description"
+    ],
+    "json_version": 3.0,
+    "provenance": {
+        "commandLine": "/export/lee1043/anaconda3/envs/pmp_nightly_20210602/bin/enso_driver.py -p ../param/my_Param_ENSO_PCMDIobs.py --mip cmip6 --metricsCollection ENSO_perf --case_id v20210608 --modnames E3SM-1-0 --realization r1i1p1f1",
+        "conda": {
+            "Platform": "linux-64",
+            "PythonVersion": "3.7.3.final.0",
+            "Version": "4.8.3",
+            "buildVersion": "3.18.8"
+        },
+        "date": "2021-06-08 22:06:05",
+        "history": "import EnsoMetrics\nfrom ...script.PMPdriver_lib import AddParserArgument\nfrom ...script.PMPdriver_lib import AddParserArgument\nfrom script.PMPdriver_lib import AddParserArgument\nfrom script.PMPdriver_libfrom PMPdriver_lib import AddParserArgument\n import AddParserArgument\nfrom PMPdriver_lib import AddParserArgument\n",
+        "openGL": {
+            "GLX": {
+                "client": {},
+                "server": {}
+            }
+        },
+        "osAccess": false,
+        "packages": {
+            "PMP": "v1.2.1-704-gcaaaed6",
+            "PMPObs": "See 'References' key below, for detailed obs provenance information.",
+            "blas": "0.3.10",
+            "cdat_info": "8.2.2020.08.27.15.53.ga42e5c8",
+            "cdms": "3.1.5.2020.11.03.21.54.gf997653",
+            "cdp": "1.7.0",
+            "cdtime": "3.1.4.2020.10.12.15.52.g2b715b5",
+            "cdutil": "8.2.2020.09.28.17.09.g484910c",
+            "clapack": null,
+            "esmf": "8.0.1",
+            "esmpy": "8.0.1",
+            "genutil": "8.2.2020.10.07.17.46.ge34ccd5",
+            "lapack": "3.8.0",
+            "matplotlib": "3.4.2",
+            "mesalib": null,
+            "numpy": "1.20.3",
+            "python": "3.8.10",
+            "scipy": "1.5.2",
+            "uvcdat": null,
+            "vcs": "8.2.2020.08.06.20.48.g4abe712",
+            "vtk": "8.2.0.8.2.2020.07.20.18.56.g3aa9eaf"
+        },
+        "platform": {
+            "Name": "gates.llnl.gov",
+            "OS": "Linux",
+            "Version": "3.10.0-1160.15.2.el7.x86_64"
+        },
+        "userId": "lee1043"
+    }
+}
