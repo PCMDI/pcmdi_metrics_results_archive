@@ -1,0 +1,207 @@
+{
+    "provenance": {
+        "platform": {
+            "OS": "Linux",
+            "Version": "5.14.21-150500.55.97_13.0.78-cray_shasta_c",
+            "Name": "login38"
+        },
+        "userId": "lee1043",
+        "osAccess": false,
+        "commandLine": "/global/homes/l/lee1043/.conda/envs/pmp_devel_20250722/bin/mean_climate_driver.py -p basic_param_cmip5.py --vars rt",
+        "date": "2025-07-22 14:01:26",
+        "conda": {
+            "Version": "4.10.3",
+            "buildVersion": "not installed",
+            "PythonVersion": "3.8.5.final.0",
+            "Platform": "linux-64"
+        },
+        "packages": {
+            "python": "3.10.10",
+            "cdat_info": "8.2.1",
+            "cdms": "3.1.5",
+            "cdp": "1.7.0",
+            "cdtime": "3.2",
+            "cdutil": "8.2.1",
+            "xarray": "2024.9.0",
+            "esmf": "0.8.10",
+            "esmpy": "8.8.1",
+            "matplotlib": "3.10.3",
+            "numpy": "2.0.2",
+            "scipy": "1.15.2",
+            "xcdat": "0.9.1",
+            "PMP": "3.9.1",
+            "PMPObs": "See 'References' key below, for detailed obs provenance information."
+        },
+        "openGL": {
+            "GLX": {
+                "server": {},
+                "client": {}
+            }
+        }
+    },
+    "Variable": {
+        "id": "rt"
+    },
+    "References": {
+        "default": {
+            "template": "rt/gr/v20250213/rt_mon_CERES-EBAF-4-2_RSS_gr_200101-200412_AC_v20250213_2.5x2.5.nc",
+            "filename": "rt_mon_CERES-EBAF-4-2_RSS_gr_200101-200412_AC_v20250213_2.5x2.5.nc"
+        }
+    },
+    "RESULTS": {
+        "ACCESS1-0": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "BCC-CSM1-1": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "BCC-CSM1-1-M": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "BNU-ESM": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "CCSM4": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "CESM1-FASTCHEM": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "CNRM-CM5-2": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "CSIRO-Mk3-6-0": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "CanCM4": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "FGOALS-g2": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "FIO-ESM": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "GFDL-CM2p1": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "GFDL-CM3": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "GFDL-ESM2G": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "GFDL-ESM2M": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "HadCM3": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "HadGEM2-AO": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "IPSL-CM5A-LR": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "IPSL-CM5A-MR": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "IPSL-CM5B-LR": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "MIROC-ESM": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "MIROC-ESM-CHEM": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "MIROC4h": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "MIROC5": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "MPI-ESM-LR": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "MPI-ESM-MR": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "MPI-ESM-P": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "MRI-ESM1": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        },
+        "NorESM1-M": {
+            "default": {
+                "source": "CERES-EBAF-4-2"
+            }
+        }
+    },
+    "json_version": 3.0,
+    "json_structure": [
+        "model",
+        "reference",
+        "rip",
+        "region",
+        "statistic",
+        "season"
+    ]
+}
